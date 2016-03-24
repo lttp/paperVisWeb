@@ -94,7 +94,7 @@ function drawPaths (svg, data, x, y) {
 
   var lowerInnerArea = d3.svg.area()
     .interpolate('basis')
-    .x (function (d) { return x(d.date) || 1; })
+    .x (function (d) { return x(d.date) || 1;})
     .y0(function (d) { return y(d.pct50); })
     .y1(function (d) { return y(d.pct25); });
 
@@ -135,51 +135,57 @@ function drawPaths (svg, data, x, y) {
 function addMarker (marker, svg, chartHeight, x) {
   var radius = 32,
       xPos = x(marker.date) - radius - 3,
-      yPosStart = chartHeight - radius - 3,
-      yPosEnd = (marker.type === 'Client' ? 80 : 160) + radius - 3;
-
+      yPosStart = chartHeight - radius - 3,//just for animation
+      yPosEnd =80 + radius - 3;//this is the true y position
   var markerG = svg.append('g')
     .attr('class', 'marker '+marker.type.toLowerCase())
     .attr('transform', 'translate(' + xPos + ', ' + yPosStart + ')')
     .attr('opacity', 0);
 
   markerG.transition()
-    .duration(1000)
+  //  .duration(1000)
     .attr('transform', 'translate(' + xPos + ', ' + yPosEnd + ')')
     .attr('opacity', 1);
 
-  markerG.append('path')
-    .attr('d', 'M' + radius + ',' + (chartHeight-yPosStart) + 'L' + radius + ',' + (chartHeight-yPosStart))
-    .transition()
-      .duration(1000)
-      .attr('d', 'M' + radius + ',' + (chartHeight-yPosEnd) + 'L' + radius + ',' + (radius*2));
+  //markerG.append('path')
+  //  .attr('d', 'M' + radius + ',' + (chartHeight-yPosStart) + 'L' + radius + ',' + (chartHeight-yPosStart))
+  //  .transition()
+  //    .duration(1000)
+  //    .attr('d', 'M' + radius + ',' + (chartHeight-yPosEnd) + 'L' + radius + ',' + (radius*2));
 
-  markerG.append('circle')
-    .attr('class', 'marker-bg')
-    .attr('cx', radius)
-    .attr('cy', radius)
-    .attr('r', radius);
+  //the circle
+  //markerG.append('circle')
+  //  .attr('class', 'marker-bg')
+  //  .attr('cx', radius)
+  //  .attr('cy', radius)
+  //  .attr('r', radius);
 
   markerG.append('text')
+      .attr('id',marker.type)
+      .attr('font-size',"20")
     .attr('x', radius)
-    .attr('y', radius*0.9)
+    .attr('y', radius)
+      .style("fill","#fb8072")
     .text(marker.type);
-
+  //get text width!!
+  //var el = document.querySelector("#"+marker.type);
+  //alert(el.offsetHeight);
   markerG.append('text')
     .attr('x', radius)
     .attr('y', radius*1.5)
+      .style("fill","#fb8072")
     .text(marker.version);
 }
 
 function startTransitions (svg, chartWidth, chartHeight, rectClip, markers, x) {
   rectClip.transition()
-    .duration(1000*markers.length)
+   // .duration(1000*markers.length)
     .attr('width', chartWidth);
 
   markers.forEach(function (marker, i) {
-    setTimeout(function () {
+  //  setTimeout(function () {
       addMarker(marker, svg, chartHeight, x);
-    }, 1000 + 500*i);
+  //  }, 1000 + 500*i);
   });
 }
 
@@ -194,7 +200,6 @@ function makeChart (data, markers) {
             .domain(d3.extent(data, function (d) { return d.date; })),
       y = d3.scale.linear().range([chartHeight, 0])
             .domain([0, d3.max(data, function (d) { return d.pct95; })]);
-
   var xAxis = d3.svg.axis().scale(x).orient('bottom')
                 .innerTickSize(-chartHeight).outerTickSize(0).tickPadding(10),
       yAxis = d3.svg.axis().scale(y).orient('left')
