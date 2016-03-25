@@ -80,7 +80,6 @@ function drawPaths (svg, data, x, y) {
     .x (function (d) { return x(d.date) || 1; })
     .y0(function (d) { return y(d.pct95); })
     .y1(function (d) { return y(d.pct75); });
-
   var upperInnerArea = d3.svg.area()
     .interpolate('basis')
     .x (function (d) { return x(d.date) || 1; })
@@ -132,8 +131,8 @@ function drawPaths (svg, data, x, y) {
     .attr('clip-path', 'url(#rect-clip)');
 }
 
-function addMarker (marker, svg, chartHeight, x) {
-  var radius = 32,
+function addMarker (marker, svg, chartHeight, x,length,locate) {
+  var radius = 50,
       xPos = x(marker.date) - radius - 3,
       yPosStart = chartHeight - radius - 3,//just for animation
       yPosEnd =80 + radius - 3;//this is the true y position
@@ -141,7 +140,6 @@ function addMarker (marker, svg, chartHeight, x) {
     .attr('class', 'marker '+marker.type.toLowerCase())
     .attr('transform', 'translate(' + xPos + ', ' + yPosStart + ')')
     .attr('opacity', 0);
-
   markerG.transition()
   //  .duration(1000)
     .attr('transform', 'translate(' + xPos + ', ' + yPosEnd + ')')
@@ -159,7 +157,8 @@ function addMarker (marker, svg, chartHeight, x) {
   //  .attr('cx', radius)
   //  .attr('cy', radius)
   //  .attr('r', radius);
-
+//length is the length of every day.
+  locate.push(xPos,yPosEnd);
   markerG.append('text')
       .attr('id',marker.type)
       .attr('font-size',"20")
@@ -170,22 +169,21 @@ function addMarker (marker, svg, chartHeight, x) {
   //get text width!!
   //var el = document.querySelector("#"+marker.type);
   //alert(el.offsetHeight);
-  markerG.append('text')
-    .attr('x', radius)
-    .attr('y', radius*1.5)
-      .style("fill","#fb8072")
-    .text(marker.version);
+  //markerG.append('text')
+  //  .attr('x', radius)
+  //  .attr('y', radius*1.5)
+  //    .style("fill","#fb8072")
+  //  .text(marker.version);
 }
 
-function startTransitions (svg, chartWidth, chartHeight, rectClip, markers, x) {
+function startTransitions (svg, chartWidth, chartHeight, rectClip, markers, x,length,data) {
   rectClip.transition()
    // .duration(1000*markers.length)
     .attr('width', chartWidth);
-
   markers.forEach(function (marker, i) {
-  //  setTimeout(function () {
-      addMarker(marker, svg, chartHeight, x);
-  //  }, 1000 + 500*i);
+   // console.log(length);
+    var locate=[];
+      addMarker(marker, svg, chartHeight, x,length,locate,data);
   });
 }
 
@@ -217,11 +215,12 @@ function makeChart (data, markers) {
     .append('rect')
       .attr('width', 0)
       .attr('height', chartHeight);
-
+  var length=x(markers[0].date);
+  markers = markers.slice(1,markers.length+1);
   addAxesAndLegend(svg, xAxis, yAxis, margin, chartWidth, chartHeight);
   drawPaths(svg, data, x, y);
-  startTransitions(svg, chartWidth, chartHeight, rectClip, markers, x);
-}
+  startTransitions(svg, chartWidth, chartHeight, rectClip, markers, x,length,data);
+}//makeChart
 
 var parseDate  = d3.time.format('%Y-%m-%d').parse;
 d3.json('./data/data.json', function (error, rawData) {
