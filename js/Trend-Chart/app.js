@@ -186,14 +186,23 @@ function addMarker (marker, svg, chartHeight, x,y,length,data) {
   //  .text(marker.version);
 var el = document.querySelector("#"+marker.type);
   findPosition(marker,data,x,y);//get the area;
-  setLocation(el,marker,length,xPos,yPosEnd);
+  setLocation(el,marker,length,xPos,yPosEnd,markerG);
 
   //get its position
  // el.setAttribute('x',100);
  area= area.slice(0,0);
 }
-function setLocation(el,marker,length,xPos,yPosEnd){
-  
+function setLocation(el,marker,length,xPos,yPosEnd,markerG){
+  var w,h;
+  var step = 0.2;
+  w=el.offsetWidth;
+  h=el.offsetHeight;
+  var deltX = 0.0;
+  var deltY = 0.0;
+  var x1,x2,x3,x4,y1,y2,y3,y4;
+  x1 = xPos-w/2;x2=xPos+w/2;x3=xPos-w/2;x4=xPos+w/2;
+  y1 = yPosEnd;y2=yPosEnd;y3=yPosEnd+h;y4=yPosEnd+h;
+
   //el.setAttribute("x",10);
 }
 function findPosition(marker,data,x,y){
