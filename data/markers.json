@@ -9,30 +9,36 @@
     "date": "2014-08-06",
     "type": "Client",
     "version": "2.0",
+    "yPos":13230,
     "value":20
+
   },
   {
     "date": "2014-08-06",
     "type": "Hello",
     "version": "2.0",
+    "yPos":13230,
     "value":"15"
   },
   {
     "date": "2014-08-06",
     "type": "Nihao",
     "version": "2.0",
+    "yPos":13230,
     "value":"10"
   },
   {
     "date": "2014-08-06",
     "type": "Wohenhao",
     "version": "2.0",
+    "yPos":13230,
     "value":"10"
   },
   {
     "date": "2014-08-06",
     "type": "What",
     "version": "2.0",
+    "yPos":13230,
     "value":"5"
   }
 ]

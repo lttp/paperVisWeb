@@ -76,29 +76,34 @@ function addAxesAndLegend (svg, xAxis, yAxis, margin, chartWidth, chartHeight) {
 
 function drawPaths (svg, data, x, y) {
   var upperOuterArea = d3.svg.area()
-    .interpolate('basis')
+ //   .interpolate('basis')
+      .interpolate('cardinal')
     .x (function (d) { return x(d.date) || 1; })
     .y0(function (d) { return y(d.pct95); })
     .y1(function (d) { return y(d.pct75); });
   var upperInnerArea = d3.svg.area()
-    .interpolate('basis')
+ //   .interpolate('basis')
+      .interpolate('cardinal')
     .x (function (d) { return x(d.date) || 1; })
     .y0(function (d) { return y(d.pct75); })
     .y1(function (d) { return y(d.pct50); });
 
   var medianLine = d3.svg.line()
-    .interpolate('basis')
+  // .interpolate('basis')
+      .interpolate('cardinal')
     .x(function (d) { return x(d.date); })
     .y(function (d) { return y(d.pct50); });
 
   var lowerInnerArea = d3.svg.area()
-    .interpolate('basis')
+ //   .interpolate('basis')
+      .interpolate('cardinal')
     .x (function (d) { return x(d.date) || 1;})
     .y0(function (d) { return y(d.pct50); })
     .y1(function (d) { return y(d.pct25); });
 
   var lowerOuterArea = d3.svg.area()
-    .interpolate('basis')
+ //   .interpolate('basis')
+      .interpolate('cardinal')
     .x (function (d) { return x(d.date) || 1; })
     .y0(function (d) { return y(d.pct25); })
     .y1(function (d) { return y(d.pct05); });
@@ -106,6 +111,7 @@ function drawPaths (svg, data, x, y) {
   svg.datum(data);
 
   svg.append('path')
+
     .attr('class', 'area upper outer')
     .attr('d', upperOuterArea)
     .attr('clip-path', 'url(#rect-clip)');
@@ -131,11 +137,11 @@ function drawPaths (svg, data, x, y) {
     .attr('clip-path', 'url(#rect-clip)');
 }
 
-function addMarker (marker, svg, chartHeight, x,length,locate) {
-  var radius = 50,
-      xPos = x(marker.date) - radius - 3,
+function addMarker (marker, svg, chartHeight, x,y,length,locate,data) {
+  var radius = 0,
+      xPos = x(marker.date),
       yPosStart = chartHeight - radius - 3,//just for animation
-      yPosEnd =80 + radius - 3;//this is the true y position
+      yPosEnd =y(marker.yPos);//this is the true y position
   var markerG = svg.append('g')
     .attr('class', 'marker '+marker.type.toLowerCase())
     .attr('transform', 'translate(' + xPos + ', ' + yPosStart + ')')
@@ -144,7 +150,6 @@ function addMarker (marker, svg, chartHeight, x,length,locate) {
   //  .duration(1000)
     .attr('transform', 'translate(' + xPos + ', ' + yPosEnd + ')')
     .attr('opacity', 1);
-
   //markerG.append('path')
   //  .attr('d', 'M' + radius + ',' + (chartHeight-yPosStart) + 'L' + radius + ',' + (chartHeight-yPosStart))
   //  .transition()
@@ -174,16 +179,34 @@ function addMarker (marker, svg, chartHeight, x,length,locate) {
   //  .attr('y', radius*1.5)
   //    .style("fill","#fb8072")
   //  .text(marker.version);
-}
+var el = document.querySelector("#"+marker.type);
+  findPosition(el,marker,data,locate,x,length);
 
-function startTransitions (svg, chartWidth, chartHeight, rectClip, markers, x,length,data) {
+  //get its position
+ // el.setAttribute('x',100);
+}
+function findPosition(el,marker,data,locate,x,length){
+  var getArea = [];
+  var w,h;
+  var pos,up,down;
+  w = el.offsetWidth;
+  h = el.offsetHeight;
+for(var i=0;i<data.length;i++){
+  if(x(data[i].date)== x(marker.date))pos = i;
+}
+//el.setAttribute('x',length*(pos-1)+10);
+ getArea = data.slice(function(){
+    var temp = pos;
+ },function(){});
+}
+function startTransitions (svg, chartWidth, chartHeight, rectClip, markers, x,y,length,data) {
   rectClip.transition()
    // .duration(1000*markers.length)
     .attr('width', chartWidth);
   markers.forEach(function (marker, i) {
    // console.log(length);
     var locate=[];
-      addMarker(marker, svg, chartHeight, x,length,locate,data);
+      addMarker(marker, svg, chartHeight, x,y,length,locate,data);
   });
 }
 
@@ -219,7 +242,7 @@ function makeChart (data, markers) {
   markers = markers.slice(1,markers.length+1);
   addAxesAndLegend(svg, xAxis, yAxis, margin, chartWidth, chartHeight);
   drawPaths(svg, data, x, y);
-  startTransitions(svg, chartWidth, chartHeight, rectClip, markers, x,length,data);
+  startTransitions(svg, chartWidth, chartHeight, rectClip, markers, x,y,length,data);
 }//makeChart
 
 var parseDate  = d3.time.format('%Y-%m-%d').parse;
@@ -250,7 +273,9 @@ d3.json('./data/data.json', function (error, rawData) {
       return {
         date: parseDate(marker.date),
         type: marker.type,
-        version: marker.version
+        version: marker.version,
+        yPos:marker.yPos/1000,
+        value:marker.value
       };
     });
 
