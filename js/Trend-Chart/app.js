@@ -73,17 +73,19 @@ function addAxesAndLegend (svg, xAxis, yAxis, margin, chartWidth, chartHeight) {
     .attr('y', 85)
     .text('Median');
 }
-
+var smooth = 0.8;//to adjust the smooth of the Trend chart
 function drawPaths (svg, data, x, y) {
   var upperOuterArea = d3.svg.area()
  //   .interpolate('basis')
       .interpolate('cardinal')
+      .tension(smooth)
     .x (function (d) { return x(d.date) || 1; })
     .y0(function (d) { return y(d.pct95); })
     .y1(function (d) { return y(d.pct75); });
   var upperInnerArea = d3.svg.area()
  //   .interpolate('basis')
       .interpolate('cardinal')
+      .tension(smooth)
     .x (function (d) { return x(d.date) || 1; })
     .y0(function (d) { return y(d.pct75); })
     .y1(function (d) { return y(d.pct50); });
@@ -91,12 +93,14 @@ function drawPaths (svg, data, x, y) {
   var medianLine = d3.svg.line()
   // .interpolate('basis')
       .interpolate('cardinal')
+      .tension(smooth)
     .x(function (d) { return x(d.date); })
     .y(function (d) { return y(d.pct50); });
 
   var lowerInnerArea = d3.svg.area()
  //   .interpolate('basis')
       .interpolate('cardinal')
+      .tension(smooth)
     .x (function (d) { return x(d.date) || 1;})
     .y0(function (d) { return y(d.pct50); })
     .y1(function (d) { return y(d.pct25); });
@@ -104,6 +108,7 @@ function drawPaths (svg, data, x, y) {
   var lowerOuterArea = d3.svg.area()
  //   .interpolate('basis')
       .interpolate('cardinal')
+      .tension(smooth)
     .x (function (d) { return x(d.date) || 1; })
     .y0(function (d) { return y(d.pct25); })
     .y1(function (d) { return y(d.pct05); });
@@ -136,8 +141,9 @@ function drawPaths (svg, data, x, y) {
     .attr('d', medianLine)
     .attr('clip-path', 'url(#rect-clip)');
 }
-
-function addMarker (marker, svg, chartHeight, x,y,length,locate,data) {
+var locate = [];
+var area = [];
+function addMarker (marker, svg, chartHeight, x,y,length,data) {
   var radius = 0,
       xPos = x(marker.date),
       yPosStart = chartHeight - radius - 3,//just for animation
@@ -163,10 +169,9 @@ function addMarker (marker, svg, chartHeight, x,y,length,locate,data) {
   //  .attr('cy', radius)
   //  .attr('r', radius);
 //length is the length of every day.
-  locate.push(xPos,yPosEnd);
   markerG.append('text')
       .attr('id',marker.type)
-      .attr('font-size',"20")
+      .attr('font-size',marker.value)
     .attr('x', radius)
     .attr('y', radius)
       .style("fill","#fb8072")
@@ -180,24 +185,131 @@ function addMarker (marker, svg, chartHeight, x,y,length,locate,data) {
   //    .style("fill","#fb8072")
   //  .text(marker.version);
 var el = document.querySelector("#"+marker.type);
-  findPosition(el,marker,data,locate,x,length);
+  findPosition(marker,data,x,y);//get the area;
+  setLocation(el,marker,length,xPos,yPosEnd);
 
   //get its position
  // el.setAttribute('x',100);
+ area= area.slice(0,0);
 }
-function findPosition(el,marker,data,locate,x,length){
+function setLocation(el,marker,length,xPos,yPosEnd){
+  
+  //el.setAttribute("x",10);
+}
+function findPosition(marker,data,x,y){
+  //the center of text is in the bottom of the center of it.
+  //now we have the whole area
   var getArea = [];
   var w,h;
-  var pos,up,down;
-  w = el.offsetWidth;
-  h = el.offsetHeight;
+  var pos,down,up;
+  //var step = 0.2;
+  //w = el.offsetWidth;
+  //h = el.offsetHeight;
 for(var i=0;i<data.length;i++){
   if(x(data[i].date)== x(marker.date))pos = i;
 }
-//el.setAttribute('x',length*(pos-1)+10);
- getArea = data.slice(function(){
-    var temp = pos;
- },function(){});
+  //to locate the position of the texts;
+  if(marker.yPos>data[pos].pct25){
+    if(marker.yPos>data[pos].pct50){
+      if(marker.yPos>data[pos].pct75){
+        if(pos==0)down=0;//in case pos is 0
+        else{
+          for(var j = pos-1;j>=0;j--){
+            if((data[j].pct95-data[j+1].pct95)>=0){
+              down = j+1;
+              break;
+            }
+          }
+        }
+        if(pos==data.length-1)up = data.length;
+        else{
+          for(var j=pos+1;j<data.length;j++){
+            if((data[j].pct95-data[j-1].pct95)>=0){
+              up = j;
+              break;
+            }
+          }
+        }
+        getArea = data.slice(down,up);//now we got the area;
+        getArea.forEach(function(d){
+          area.push([x(d.date),y(d.pct75), y(d.pct95)]);
+        });
+      }
+      else{
+        if(pos==0)down=0;//in case pos is 0
+        else{
+          for(var j = pos-1;j>=0;j--){
+            if((data[j].pct75-data[j+1].pct75)>=0){
+              down = j+1;
+              break;
+            }
+          }
+        }
+        if(pos==data.length-1)up = data.length;
+        else{
+          for(var j=pos+1;j<data.length;j++){
+            if((data[j].pct75-data[j-1].pct75)>=0){
+              up = j;
+              break;
+            }
+          }
+        }
+        getArea = data.slice(down,up);//now we got the area;
+        getArea.forEach(function(d){
+          area.push([x(d.date),y(d.pct50), y(d.pct75)]);
+        });
+      }
+    }
+    else{
+      if(pos==0)down=0;//in case pos is 0
+      else{
+        for(var j = pos-1;j>=0;j--){
+          if((data[j].pct50-data[j+1].pct50)>=0){
+            down = j+1;
+            break;
+          }
+        }
+      }
+      if(pos==data.length-1)up = data.length;
+      else{
+        for(var j=pos+1;j<data.length;j++){
+          if((data[j].pct50-data[j-1].pct50)>=0){
+            up = j;
+            break;
+          }
+        }
+      }
+      getArea = data.slice(down,up);//now we got the area;
+      getArea.forEach(function(d){
+        area.push([x(d.date),y(d.pct25), y(d.pct50)]);
+      });
+    }
+  }else{
+    if(pos==0)down=0;//in case pos is 0
+    else{
+      for(var j = pos-1;j>=0;j--){
+        if((data[j].pct25-data[j+1].pct25)>=0){
+          down = j+1;
+          break;
+        }
+      }
+    }
+    if(pos==data.length-1)up = data.length;
+    else{
+      for(var j=pos+1;j<data.length;j++){
+        if((data[j].pct25-data[j-1].pct25)>=0){
+          up = j;
+          break;
+        }
+      }
+    }
+    getArea = data.slice(down,up);//now we got the area;
+    getArea.forEach(function(d){
+      area.push([x(d.date),y(d.pct05), y(d.pct25)]);
+    });
+    //el.setAttribute('x',length*(pos-1)+10);
+  }
+
 }
 function startTransitions (svg, chartWidth, chartHeight, rectClip, markers, x,y,length,data) {
   rectClip.transition()
@@ -205,8 +317,7 @@ function startTransitions (svg, chartWidth, chartHeight, rectClip, markers, x,y,
     .attr('width', chartWidth);
   markers.forEach(function (marker, i) {
    // console.log(length);
-    var locate=[];
-      addMarker(marker, svg, chartHeight, x,y,length,locate,data);
+      addMarker(marker, svg, chartHeight, x,y,length,data);
   });
 }
 
