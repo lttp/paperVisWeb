@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=gb2312"/ >
+		<title>Smoothed D3.js Radar Chart</title>
+
+		<!-- Google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+		<!-- D3.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+		
+		<style>
+			body {
+				font-family: 'Open Sans', sans-serif;
+				font-size: 11px;
+				font-weight: 300;
+				fill: #242424;
+				text-align: center;
+				text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+				cursor: default;
+			}
+			
+			.legend {
+				font-family: 'Raleway', sans-serif;
+				fill: #333333;
+			}
+			
+			.tooltip {
+				fill: #333333;
+			}
+		</style>
+	
+	</head>
+<body>
+<table style="margin:auto;width:1500px;height:800px">
+    <tr>
+        <td>
+            <div id="bigBox"  style="margin:auto;width:1500px;height:800px">
+                <div id="school" style="float:left; width:1000px;height:500px">
+                    <div class="school1" style="float:left; width:500px;height:500px">
+					天津大学
+					</div>
+					<script src="radarChart.js"></script>	
+					<script>
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width =300,
+				height =300;
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var data = [
+					  [//iPhone
+						{axis:"论文",value:0.11},
+						{axis:"研究",value:0.32},
+						{axis:"教学",value:0.11},
+						{axis:"师资",value:0.35},
+						{axis:"建设",value:0.16},
+						{axis:"历史",value:0.11},
+						{axis:"地位",value:0.44},
+						{axis:"口碑",value:0.12}			
+					  ],[//Samsung
+						{axis:"论文",value:0.23},
+						{axis:"研究",value:0.11},
+						{axis:"教学",value:0.22},
+						{axis:"师资",value:0.33},
+						{axis:"建设",value:0.44},
+						{axis:"历史",value:0.23},
+						{axis:"地位",value:0.11},
+						{axis:"口碑",value:0.22}
+					  ],[//Nokia Smartphone
+						{axis:"论文",value:0.26},
+						{axis:"研究",value:0.10},
+						{axis:"教学",value:0.30},
+						{axis:"师资",value:0.14},
+						{axis:"建设",value:0.22},
+						{axis:"历史",value:0.04},
+						{axis:"地位",value:0.41},
+						{axis:"口碑",value:0.30}
+					  ]
+					];
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var color = d3.scale.ordinal()
+				.range(["#EDC951","#CC333F","#00A0B0"]);
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 0.5,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: color
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".school1", data, radarChartOptions);
+		</script>
+					<div class="school2" align="center" style="float:right; width:500px;height:500px">
+					清华大学
+					</div>
+						<script src="radarChart1.js"></script>	
+					<script>
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width =300,
+				height =300;
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var data = [
+					  [//iPhone
+						{axis:"论文",value:0.22},
+						{axis:"研究",value:0.28},
+						{axis:"教学",value:0.29},
+						{axis:"师资",value:0.17},
+						{axis:"建设",value:0.22},
+						{axis:"历史",value:0.02},
+						{axis:"地位",value:0.21},
+						{axis:"口碑",value:0.50}			
+					  ],[//Samsung
+						{axis:"论文",value:0.27},
+						{axis:"研究",value:0.16},
+						{axis:"教学",value:0.35},
+						{axis:"师资",value:0.13},
+						{axis:"建设",value:0.20},
+						{axis:"历史",value:0.13},
+						{axis:"地位",value:0.35},
+						{axis:"口碑",value:0.38}
+					  ],[//Nokia Smartphone
+						{axis:"论文",value:0.26},
+						{axis:"研究",value:0.10},
+						{axis:"教学",value:0.30},
+						{axis:"师资",value:0.14},
+						{axis:"建设",value:0.22},
+						{axis:"历史",value:0.04},
+						{axis:"地位",value:0.41},
+						{axis:"口碑",value:0.30}
+					  ]
+					];
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var color = d3.scale.ordinal()
+				.range(["#EDC951","#CC333F","#00A0B0"]);
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 0.5,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: color
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".school2", data, radarChartOptions);
+		</script>
+                </div>
+				<div id="choice" style=" float:right; width:500px;height:100px;">
+                    <select onchange="window.location=this.value;">
+					<option value="1.html">天津大学vs清华大学</option>
+					<option value="1.html">其他</option>
+			</select>
+                </div>
+                <div id="list" style="float:right;width:500px;height:400px;">
+					
+                </div>
+                <div class="year" style="float:left; width:300px;height:300px;">
+				2012
+                        <script src="redarChartYear1.js"></script>	
+					<script>
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width =200,
+				height =200;
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+						var data = [
+					  [//iPhone
+						{axis:"论文",value:0.22},
+						{axis:"研究",value:0.28},
+						{axis:"教学",value:0.29},
+						{axis:"师资",value:0.17},
+						{axis:"建设",value:0.22},
+						{axis:"历史",value:0.02},
+						{axis:"地位",value:0.21},
+						{axis:"口碑",value:0.50}			
+					  ]
+					];
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var color = d3.scale.ordinal()
+				.range(["#EDC951","#CC333F","#00A0B0"]);
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 0.5,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: color
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".year", data, radarChartOptions);
+			</script>			
+						
+                </div>
+				
+			<div class="year2" style="float:left; width:300px;height:300px;">
+			2013	
+                </div>
+				<script src="redarChartYear2.js"></script>	
+					<script>
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width =200,
+				height =200;
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+						var data = [
+						[//Samsung
+						{axis:"论文",value:0.27},
+						{axis:"研究",value:0.16},
+						{axis:"教学",value:0.35},
+						{axis:"师资",value:0.13},
+						{axis:"建设",value:0.20},
+						{axis:"历史",value:0.13},
+						{axis:"地位",value:0.35},
+						{axis:"口碑",value:0.38}
+					  ]
+					];
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var color = d3.scale.ordinal()
+				.range(["#EDC951","#CC333F","#00A0B0"]);
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 0.5,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: color
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".year2", data, radarChartOptions);
+			</script>	
+				
+							<div class="year3" style="float:left; width:300px;height:300px;">
+							2014
+                        <script src="redarChartYear3.js"></script>	
+					<script>
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width =200,
+				height =200;
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+						var data = [
+					  [//Nokia Smartphone
+						{axis:"论文",value:0.26},
+						{axis:"研究",value:0.10},
+						{axis:"教学",value:0.30},
+						{axis:"师资",value:0.14},
+						{axis:"建设",value:0.22},
+						{axis:"历史",value:0.04},
+						{axis:"地位",value:0.41},
+						{axis:"口碑",value:0.30}
+					  ]
+					];
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var color = d3.scale.ordinal()
+				.range(["#EDC951","#CC333F","#00A0B0"]);
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 0.5,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: color
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".year3", data, radarChartOptions);
+			</script>			
+						
+                </div>
+							<div class="year4" style="float:left; width:300px;height:300px;">
+							2015
+                        <script src="redarChartYear4.js"></script>	
+					<script>
+			////////////////////////////////////////////////////////////// 
+			//////////////////////// Set-Up ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var margin = {top: 100, right: 100, bottom: 100, left: 100},
+				width =200,
+				height =200;
+					
+			////////////////////////////////////////////////////////////// 
+			////////////////////////// Data ////////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+						var data = [
+					 [//
+						{axis:"论文",value:0.12},
+						{axis:"研究",value:0.32},
+						{axis:"教学",value:0.33},
+						{axis:"师资",value:0.12},
+						{axis:"建设",value:0.44},
+						{axis:"历史",value:0.14},
+						{axis:"地位",value:0.22},
+						{axis:"口碑",value:0.11}
+					  ]
+					];
+			////////////////////////////////////////////////////////////// 
+			//////////////////// Draw the Chart ////////////////////////// 
+			////////////////////////////////////////////////////////////// 
+
+			var color = d3.scale.ordinal()
+				.range(["#EDC951","#CC333F","#00A0B0"]);
+				
+			var radarChartOptions = {
+			  w: width,
+			  h: height,
+			  margin: margin,
+			  maxValue: 0.5,
+			  levels: 5,
+			  roundStrokes: true,
+			  color: color
+			};
+			//Call function to draw the Radar chart
+			RadarChart(".year4", data, radarChartOptions);
+			</script>			
+						
+                </div>
+				<div class="year4" style="float:left; width:300px;height:300px;">
+				<select style="margin:0 auto;"  onchange="window.location=this.value;">
+					
+					<option value="0.html">天津大学</option>
+					<option value="0.html">清华大学</option>
+			</select>
+                </div>
+				<script type="text/javascript">   
+			function load() {   
+				canvas = document.getElementById("cv");   
+				ctx = canvas.getContext("2d");   
+								ctx.beginPath();   
+								ctx.moveTo(0,0);   
+								ctx.lineTo(1500,800);   
+								ctx.stroke();   
+				};   
+   
+            
+			</script> 
+            </div>
+			
+        </td>
+    </tr>
+</table>
+</body>
+</html>
