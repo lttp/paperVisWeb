@@ -153,8 +153,9 @@ function addMarker (marker, svg, chartHeight, x,y,length,data) {
       .attr('x', radius)
       .attr('y', radius)
       .attr('height',marker.value)
-      .style("fill","#fb8072")
+      .style("fill",marker.color)
       .text(marker.type);
+//,"","#bc80bd","#ad2358"
   var el = document.querySelector("#"+marker.type);
   //var te = document.getElementsByTagName('text');
   //console.log(te);
@@ -163,7 +164,10 @@ function addMarker (marker, svg, chartHeight, x,y,length,data) {
  // el.setAttribute('x',100);
  area= area.slice(0,0);
 }
-var addup;
+var addup={
+  "date":2000-01-01,
+   h:0
+};
 function setLocation(el,marker,length,xPos,yPosEnd,markerG,svg){
   var w, h,pos;
   var step = 0.2;
@@ -190,15 +194,24 @@ function setLocation(el,marker,length,xPos,yPosEnd,markerG,svg){
     el.setAttribute('y', -area[pos][2] + area[pos][1]);
     for(var i=0;i<4;i++)y[i]+=-area[pos][2] + area[pos][1];
     locate.push(h);
-    addup = h;
+    addup.date = marker.date;
+    addup.h = h;
   }
   else
   {
-    el.setAttribute('y', -area[pos][2] + area[pos][1]-addup);
-    for(var i=0;i<4;i++)y[i]+=-area[pos][2] + area[pos][1]-addup;
-    addup+=h;
+    if(Date.parse(addup.date)==Date.parse(marker.date)){
+      el.setAttribute('y', -area[pos][2] + area[pos][1]-addup.h);
+      for(var i=0;i<4;i++)y[i]+=-area[pos][2] + area[pos][1]-addup.h;
+      addup.h+=h;
+    }else{
+      el.setAttribute('y', -area[pos][2] + area[pos][1]);
+      for(var i=0;i<4;i++)y[i]+=-area[pos][2] + area[pos][1];
+      addup.date = marker.date;
+      addup.h = h;
+    }
     locate.push(h);
   }
+  console.log(addup);
   function f(x,y){
     
   }
@@ -398,7 +411,8 @@ d3.json('./data/data.json', function (error, rawData) {
         type: marker.type,
         version: marker.version,
         yPos:marker.yPos/1000,
-        value:marker.value
+        value:marker.value,
+        color:marker.color
       };
     });
 
