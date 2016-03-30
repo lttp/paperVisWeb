@@ -1,0 +1,52 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Taxonomy tool for paper collection</title>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script src="readmore.js"></script>
+
+	<style type="text/css">
+		body{width:1910px;height:900px;margin:10px;padding:0;}	
+		.readmore-js-toggle, .readmore-js-section {
+
+  display: block;
+
+  width: 100%;
+
+}
+
+.readmore-js-section {
+
+  overflow: hidden;
+
+}	
+	</style>
+</head>
+<body>
+	<h2 style="height:20px;margin-top:10px">Taxonomy tool for paper collection</h2>
+
+	<div id="taxonomy_panel" style="width:1040px;height:890px;float:left;background:#fafafa;border:1px solid #ccc;">
+
+      <article>
+
+        <h2><font face="微软雅黑" color="black">Synthetic Generation of High-Dimensional Datasets</font></h2>
+
+        <p><font face="黑体" color="black" size="4px"><b>Keywords:</b></font>
+        <font face="Helvetica">Synthetic data generation; multivariate data; high-dimensional data; interaction</font></p>
+        <p><font face="黑体" color="black" size="4px"><b>Abstract:</b></font><font face="Helvetica">Generation of synthetic datasets is a common practice in many research areas. Such data is often generated to meet specific needs or certain conditions that may not be easily found in the original, real data. The nature of the data varies according to the application area and includes text, graphs, social or weather data, among many others. The common process to create such synthetic datasets is to implement small scripts or programs, restricted to small problems or to a specific application. In this paper we propose a framework designed to generate high dimensional datasets. Users can interactively create and navigate through multi dimensional datasets using a suitable graphical user-interface. The data creation is driven by statistical distributions based on a few user-defined parameters. First, a grounding dataset is created according to given inputs, and then structures and trends are included in selected dimensions and orthogonal projection planes. Furthermore, our framework supports the creation of complex non-orthogonal trends and classified datasets. It can successfully be used to create synthetic datasets simulating important trends as multidimensional clusters, correlations and outliers.</font></p>
+
+      </article>
+
+
+	</div>
+
+
+
+</body>
+<script>
+	$('article').readmore();
+
+
+</script>
+</html>

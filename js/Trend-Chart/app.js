@@ -1,6 +1,6 @@
 function addAxesAndLegend (svg, xAxis, yAxis, margin, chartWidth, chartHeight) {
-  var legendWidth  = 200,
-      legendHeight = 100;
+  var legendWidth  = 200/xTimes,
+      legendHeight = 100/yTimes;
 
   // clipping to make sure nothing appears behind legend
   svg.append('clipPath')
@@ -26,52 +26,52 @@ function addAxesAndLegend (svg, xAxis, yAxis, margin, chartWidth, chartHeight) {
     .call(yAxis)
     .append('text')
       .attr('transform', 'rotate(-90)')
-      .attr('y', 6)
+      .attr('y', 6/yTimes)
       .attr('dy', '.71em')
       .style('text-anchor', 'end')
       .text('Time (s)');
 
-  var legend = svg.append('g')
-    .attr('class', 'legend')
-    .attr('transform', 'translate(' + (chartWidth - legendWidth) + ', 0)');
-
-  legend.append('rect')
-    .attr('class', 'legend-bg')
-    .attr('width',  legendWidth)
-    .attr('height', legendHeight);
-
-  legend.append('rect')
-    .attr('class', 'outer')
-    .attr('width',  75)
-    .attr('height', 20)
-    .attr('x', 10)
-    .attr('y', 10);
-
-  legend.append('text')
-    .attr('x', 115)
-    .attr('y', 25)
-    .text('5% - 95%');
-
-  legend.append('rect')
-    .attr('class', 'inner')
-    .attr('width',  75)
-    .attr('height', 20)
-    .attr('x', 10)
-    .attr('y', 40);
-
-  legend.append('text')
-    .attr('x', 115)
-    .attr('y', 55)
-    .text('25% - 75%');
-
-  legend.append('path')
-    .attr('class', 'median-line')
-    .attr('d', 'M10,80L85,80');
-
-  legend.append('text')
-    .attr('x', 115)
-    .attr('y', 85)
-    .text('Median');
+  //var legend = svg.append('g')
+  //  .attr('class', 'legend')
+  //  .attr('transform', 'translate(' + (chartWidth - legendWidth) + ', 0)');
+  //
+  //legend.append('rect')
+  //  .attr('class', 'legend-bg')
+  //  .attr('width',  legendWidth)
+  //  .attr('height', legendHeight);
+  //
+  //legend.append('rect')
+  //  .attr('class', 'outer')
+  //  .attr('width',  75)
+  //  .attr('height', 20)
+  //  .attr('x', 10)
+  //  .attr('y', 10);
+  //
+  //legend.append('text')
+  //  .attr('x', 115)
+  //  .attr('y', 25)
+  //  .text('5% - 95%');
+  //
+  //legend.append('rect')
+  //  .attr('class', 'inner')
+  //  .attr('width',  75)
+  //  .attr('height', 20)
+  //  .attr('x', 10)
+  //  .attr('y', 40);
+  //
+  //legend.append('text')
+  //  .attr('x', 115)
+  //  .attr('y', 55)
+  //  .text('25% - 75%');
+  //
+  //legend.append('path')
+  //  .attr('class', 'median-line')
+  //  .attr('d', 'M10,80L85,80');
+  //
+  //legend.append('text')
+  //  .attr('x', 115)
+  //  .attr('y', 85)
+  //  .text('Median');
 }
 var smooth = 0.8;//to adjust the smooth of the Trend chart
 function drawPaths (svg, data, x, y) {
@@ -89,14 +89,6 @@ function drawPaths (svg, data, x, y) {
     .x (function (d) { return x(d.date) || 1; })
     .y0(function (d) { return y(d.pct75); })
     .y1(function (d) { return y(d.pct50); });
-
-  var medianLine = d3.svg.line()
-  // .interpolate('basis')
-      .interpolate('cardinal')
-      .tension(smooth)
-    .x(function (d) { return x(d.date); })
-    .y(function (d) { return y(d.pct50); });
-
   var lowerInnerArea = d3.svg.area()
  //   .interpolate('basis')
       .interpolate('cardinal')
@@ -116,93 +108,104 @@ function drawPaths (svg, data, x, y) {
   svg.datum(data);
 
   svg.append('path')
-
+      .style('fill','#8dd3c7')
     .attr('class', 'area upper outer')
     .attr('d', upperOuterArea)
     .attr('clip-path', 'url(#rect-clip)');
 
   svg.append('path')
+      .style('fill','#bebada')
     .attr('class', 'area lower outer')
     .attr('d', lowerOuterArea)
     .attr('clip-path', 'url(#rect-clip)');
 
   svg.append('path')
+      .style('fill','#80b1d3')
     .attr('class', 'area upper inner')
     .attr('d', upperInnerArea)
     .attr('clip-path', 'url(#rect-clip)');
 
   svg.append('path')
+      .style('fill','#b3de69')
     .attr('class', 'area lower inner')
     .attr('d', lowerInnerArea)
-    .attr('clip-path', 'url(#rect-clip)');
-
-  svg.append('path')
-    .attr('class', 'median-line')
-    .attr('d', medianLine)
     .attr('clip-path', 'url(#rect-clip)');
 }
 var locate = [];
 var area = [];
 function addMarker (marker, svg, chartHeight, x,y,length,data) {
+  findPosition(marker,data,x,y);//get the area;
   var radius = 0,
       xPos = x(marker.date),
       yPosStart = chartHeight - radius - 3,//just for animation
       yPosEnd =y(marker.yPos);//this is the true y position
   var markerG = svg.append('g')
-    .attr('class', 'marker '+marker.type.toLowerCase())
-    .attr('transform', 'translate(' + xPos + ', ' + yPosStart + ')')
-    .attr('opacity', 0);
+      .attr('class', 'marker '+marker.type.toLowerCase())
+      .attr('transform', 'translate(' + xPos + ', ' + yPosStart + ')')
+      .attr('opacity', 0);
   markerG.transition()
-  //  .duration(1000)
-    .attr('transform', 'translate(' + xPos + ', ' + yPosEnd + ')')
-    .attr('opacity', 1);
-  //markerG.append('path')
-  //  .attr('d', 'M' + radius + ',' + (chartHeight-yPosStart) + 'L' + radius + ',' + (chartHeight-yPosStart))
-  //  .transition()
-  //    .duration(1000)
-  //    .attr('d', 'M' + radius + ',' + (chartHeight-yPosEnd) + 'L' + radius + ',' + (radius*2));
-
-  //the circle
-  //markerG.append('circle')
-  //  .attr('class', 'marker-bg')
-  //  .attr('cx', radius)
-  //  .attr('cy', radius)
-  //  .attr('r', radius);
-//length is the length of every day.
+      //  .duration(1000)
+      .attr('transform', 'translate(' + xPos + ', ' + yPosEnd + ')')
+      .attr('opacity', 1);
   markerG.append('text')
       .attr('id',marker.type)
       .attr('font-size',marker.value)
-    .attr('x', radius)
-    .attr('y', radius)
+      .attr('x', radius)
+      .attr('y', radius)
+      .attr('height',marker.value)
       .style("fill","#fb8072")
-    .text(marker.type);
-  //get text width!!
-  //var el = document.querySelector("#"+marker.type);
-  //alert(el.offsetHeight);
-  //markerG.append('text')
-  //  .attr('x', radius)
-  //  .attr('y', radius*1.5)
-  //    .style("fill","#fb8072")
-  //  .text(marker.version);
-var el = document.querySelector("#"+marker.type);
-  findPosition(marker,data,x,y);//get the area;
-  setLocation(el,marker,length,xPos,yPosEnd,markerG);
-
+      .text(marker.type);
+  var el = document.querySelector("#"+marker.type);
+  //var te = document.getElementsByTagName('text');
+  //console.log(te);
+  setLocation(el,marker,length,xPos,yPosEnd,markerG,svg);
   //get its position
  // el.setAttribute('x',100);
  area= area.slice(0,0);
 }
-function setLocation(el,marker,length,xPos,yPosEnd,markerG){
-  var w,h;
+var addup;
+function setLocation(el,marker,length,xPos,yPosEnd,markerG,svg){
+  var w, h,pos;
   var step = 0.2;
   w=el.offsetWidth;
   h=el.offsetHeight;
+  //w=el.offsetWidth;
+  //h=el.offsetHeight;
   var deltX = 0.0;
   var deltY = 0.0;
-  var x1,x2,x3,x4,y1,y2,y3,y4;
-  x1 = xPos-w/2;x2=xPos+w/2;x3=xPos-w/2;x4=xPos+w/2;
-  y1 = yPosEnd;y2=yPosEnd;y3=yPosEnd+h;y4=yPosEnd+h;
+  var x=[],y=[];
+  x[0] = xPos-w*5/8;x[1]=xPos+w*5/8;x[3]=xPos-w*5/8;x[2]=xPos+w*5/8;
+  y[0] = yPosEnd+h/4;y[1]=yPosEnd+h/4;y[3]=yPosEnd-h;y[2]=yPosEnd-h;
+  var test = d3.svg.line()
+      .x(function(d,i){return x[i];})
+      .y(function(d,i){return y[i];})
 
+
+  for(var i=0;i<area.length;i++){
+    if(area[i][0]==xPos){
+      pos=i;break;
+    }
+  }
+  if(locate.length==0){
+    el.setAttribute('y', -area[pos][2] + area[pos][1]);
+    for(var i=0;i<4;i++)y[i]+=-area[pos][2] + area[pos][1];
+    locate.push(h);
+    addup = h;
+  }
+  else
+  {
+    el.setAttribute('y', -area[pos][2] + area[pos][1]-addup);
+    for(var i=0;i<4;i++)y[i]+=-area[pos][2] + area[pos][1]-addup;
+    addup+=h;
+    locate.push(h);
+  }
+  function f(x,y){
+    
+  }
+  //svg.append('path')
+  //    .attr('class', 'test')
+  //    .attr('d',test)
+  //    .attr('clip-path', 'url(#rect-clip)');
   //el.setAttribute("x",10);
 }
 function findPosition(marker,data,x,y){
@@ -329,11 +332,11 @@ function startTransitions (svg, chartWidth, chartHeight, rectClip, markers, x,y,
       addMarker(marker, svg, chartHeight, x,y,length,data);
   });
 }
-
+var yTimes = 1,xTimes = 1;//2.17 3.84
 function makeChart (data, markers) {
-  var svgWidth  = 960,
-      svgHeight = 500,
-      margin = { top: 20, right: 20, bottom: 40, left: 40 },
+  var svgWidth  = 960/xTimes,
+      svgHeight = 500/yTimes,
+      margin = { top: 20/yTimes, right: 20/xTimes, bottom: 40/yTimes, left: 40/xTimes },
       chartWidth  = svgWidth  - margin.left - margin.right,
       chartHeight = svgHeight - margin.top  - margin.bottom;
 
@@ -375,11 +378,11 @@ d3.json('./data/data.json', function (error, rawData) {
   var data = rawData.map(function (d) {
     return {
       date:  parseDate(d.date),
-      pct05: d.pct05 / 1000,
+      pct05: d.pct05,
       pct25: d.pct25 / 1000,
       pct50: d.pct50 / 1000,
       pct75: d.pct75 / 1000,
-      pct95: d.pct95 / 1000
+      pct95: d.pct95/1000
     };
   });
 

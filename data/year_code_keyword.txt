@@ -1,0 +1,40 @@
+topological analysis
+~2005 [16, 17] 2
+['isosurface', 'algorithm', 'extraction', 'dimension', 'feature', 'volume', 'function', 'animation', 'hull', 'isosurfaces']
+2011~ [42, 44, 27, 45, 135] 5
+['topological', 'analysis', 'contour', 'function', 'net', 'joint', 'statistic', 'computation', 'progressive', 'isosurface']
+2005~2008 [139, 196] 2
+['topological', 'reeb', 'graph', 'terrain', 'function', 'mesh', 'landscape', 'metaphor', 'scientific', 'on']
+2008~2011 [148, 36, 63, 71, 136, 137, 174, 189] 8
+['topological', 'analysis', 'centric', 'function', 'computation', 'landscape', 'sample', 'topology', 'point', 'cloud']
+
+
+dimensionality reduction
+~2005 [74, 100, 101, 128, 129, 156, 199, 75] 8
+['dimensionality', 'reduction', 'hybrid', 'transformation', 'radviz', 'point', 'layout', 'computation', 'linear', 'scatterplot']
+2011~ [118, 127, 161, 109, 147] 5
+['reduction', 'dimensionality', 'measure', 'scatterplot', 'distance', 'multidimensional', 'point', 'quality', 'technique', 'metric']
+2005~2008 [134, 151] 2
+['skeleton', 'diagnosis', 'trend', 'reduction', 'dimensionality', 'subspace', 'principal', 'regression', 'analysis', 'curve']
+2008~2011 [82, 110, 140, 142, 160, 84, 106, 162, 81, 86] 10
+['reduction', 'dimensionality', 'projection', 'precision', 'system', 'distance', 'interactive', 'transformation', 'quality', 'scatterplot']
+
+interactive exploration
+~2005 [102, 171, 58, 60, 173, 200, 203, 154, 43, 55, 87, 90, 185, 201, 13, 22, 65, 78, 120, 172, 205, 206, 9, 83, 180, 186] 26
+['interactive', 'exploration', 'visual', 'coordinate', 'parallel', 'cluster', 'visualization', 'point', 'dimension', 'technical']
+2011~ [92, 105, 2, 52, 108, 119, 131, 157, 188, 11, 20, 64, 77, 99, 53, 80, 104, 121, 155, 165, 184, 209, 210, 211] 24
+['interactive', 'exploration', 'projection', 'scatterplot', 'dimension', 'visual', 'point', 'subspace', 'user', 'cluster']
+2005~2008 [25, 23, 141, 192, 202, 130, 164, 133, 168, 12, 48, 49, 70, 150, 166, 181, 204, 207] 18
+['visual', 'exploration', 'interactive', 'dimension', 'cluster', 'parallel', 'coordinate', 'user', 'visualization', 'multivariate']
+2008~2011 [176, 214, 14, 19, 24, 32, 33, 35, 37, 51, 89, 91, 125, 132, 146, 149, 167, 170, 182, 194, 61, 126, 144, 145, 40, 62, 79, 208, 26, 34, 50, 54, 66, 67, 68, 115, 183, 193, 195] 39
+['interactive', 'visual', 'exploration', 'cluster', 'user', 'analysis', 'parameter', 'point', 'coordinate', 'technical']
+
+parallel coordinate
+~2005 [98, 30, 93, 94, 96, 97, 114, 138, 6, 21, 59, 88, 163, 191, 197, 153, 5, 31, 95, 107, 3, 4, 143] 23
+['visual', 'technique', 'mine', 'pixel', 'centric', 'computation', 'projection', 'map', 'visualization', 'applicable']
+2011~ [10, 39, 29, 111, 113, 179, 103, 123, 18] 9
+['scatterplot', 'subspace', 'coordinate', 'series', 'sensitivity', 'view', 'centric', 'time', 'computation', 'star']
+2005~2008 [47, 7, 38, 85, 124, 159, 159, 198, 69, 72, 190, 46, 213] 13
+['abstraction', 'clutter', 'parallel', 'centric', 'computation', 'coordinate', 'visual', 'reduction', 'view', 'point']
+2008~2011 [0, 1, 8, 15, 28, 41, 56, 73, 112, 116, 117, 122, 152, 158, 175, 177, 178, 187, 212, 57, 76] 21
+['computation', 'centric', 'rank', 'scatterplots', 'view', 'point', 'parallel', 'quality', 'coordinate', 'scatterplot']
