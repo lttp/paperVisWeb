@@ -1,0 +1,75 @@
+
+<articles>
+<url>http://dx.doi.org/10.1109/TIT.1968.1054228</url>
+<abstract_html_url>http://ieeexplore.ieee.org/articleDetails.jsp?arnumber=1054228</abstract_html_url>
+<pdf_url>http://ieeexplore.ieee.org/iel5/18/22642/01054228.pdf?arnumber=1054228</pdf_url>
+<doi>10.1109/TIT.1968.1054228</doi>
+<title>Review of 'Communication Theory' (Balakrishnan, A.V., Ed.; 1968)</title>
+<publisher>IEEE</publisher>
+<journal_title>IEEE Transactions on Information Theory</journal_title>
+<volume>14</volume>
+<issue>6</issue>
+<first_page>826</first_page>
+<last_page>827</last_page>
+<issn>0018-9448</issn>
+<date_of_publication>November 1968</date_of_publication>
+<author>S. Schwartz</author>
+<keyword>Book reviews</keyword>
+<keyword>Communication theory</keyword>
+<keyword>Signal detection</keyword>
+<keyword>Book reviews</keyword>
+<abstract>First Page of the Article</abstract>
+</articles>
+
+
+<articles>
+<url>http://dx.doi.org/10.1109/TIT.1967.1053967</url>
+<abstract_html_url>http://ieeexplore.ieee.org/articleDetails.jsp?arnumber=1053967</abstract_html_url>
+<pdf_url>http://ieeexplore.ieee.org/iel5/18/22633/01053967.pdf?arnumber=1053967</pdf_url>
+<doi>10.1109/TIT.1967.1053967</doi>
+<title>A moving-window detector for binary integration</title>
+<publisher>IEEE</publisher>
+<journal_title>IEEE Transactions on Information Theory</journal_title>
+<volume>13</volume>
+<issue>1</issue>
+<first_page>2</first_page>
+<last_page>6</last_page>
+<issn>0018-9448</issn>
+<date_of_publication>January 1967</date_of_publication>
+<author>G. Dillard</author>
+<institution>U. S. Navy Electronics Lab., San Diego,California, USA</institution>
+<abstract>A device for performing binary integration on quantized data from a multiple-resolution-element radar is described. The moving window detector is described, and expressions for false-alarm and detection probabilities are given. A scheme for determining the optimum detection thresholds and the optimum quantizing levels is given. Application of the moving window detector to a particular multiple-range-element radar is described.</abstract>
+<reference>J. V. Harrington, "An analysis of the detection of repeated signals in noise by binary integration",IRE Trans. on Information Theory, vol. IT-1, pp. 1-9, 1955</reference>
+<reference>I. S. Reed and G. P. Dinneen, "An analysis of signal detection and location by digital methods",IRE Trans. on Information Theory, vol. IT-2, pp. 29-38, 1956</reference>
+<reference>P. Swerling,The \'double threshold\' method of detection, 1952</reference>
+</articles>
+
+
+<articles>
+<url>http://dx.doi.org/10.1109/TIT.1967.1053962</url>
+<abstract_html_url>http://ieeexplore.ieee.org/articleDetails.jsp?arnumber=1053962</abstract_html_url>
+<pdf_url>http://ieeexplore.ieee.org/iel5/18/22633/01053962.pdf?arnumber=1053962</pdf_url>
+<doi>10.1109/TIT.1967.1053962</doi>
+<title>Output characteristic function for an analog crosscorrelator with bandpass inputs</title>
+<publisher>IEEE</publisher>
+<journal_title>IEEE Transactions on Information Theory</journal_title>
+<volume>13</volume>
+<issue>1</issue>
+<first_page>6</first_page>
+<last_page>10</last_page>
+<issn>0018-9448</issn>
+<date_of_publication>January 1967</date_of_publication>
+<author>J. Brown</author>
+<author>H. Piper</author>
+<keyword>Correlators</keyword>
+<abstract>An analysis is presented of an ideal two-channel cross-correlator in which each channel input consists of a deterministic signal combined additively with stationary Gaussian noise. It is assumed that all input quantities are bandlimited to some common passband,  , with angular bandwidth  . Moreover, the random noises  and  are assumed jointly normal with crosscorrelation function  independent of  . After multiplication of the two composite inputs, the product process is passed through an ideal lowpass filter to produce the correlator output,  . The main result of the paper is an explicit determination of the characteristic function of  in closed form. This extends previous work by D. C. Cooper [1], who considered the same model with sinusoidal signals and a restricted form of dependency between the Gaussian noises in the two channels. The more general derivation given here makes use of canonical representations for the bandpass input quantities and exhibits the system output as a quadratic form in the (Gaussian) quadrature components. A recent result of Yu. S. Lezin [6] on the output probability density of an autocorrelator with bandpass inputs is shown to be a special case of the analysis.</abstract>
+<reference>D. C. Cooper, "The probability density function for the output of a correlator with band-pass input waveforms",IEEE Trans. on Information Theory, vol. IT-11, pp. 190-195, 1965</reference>
+<reference>C. W. Helstrom,Statistical Theory of Signal Detection, 1960, Pergamon</reference>
+<reference>J. Dugundji, "Envelopes and pre-envelopes of real waveforms",IRE Trans. on Information Theory, vol. IT-4, pp. 53-57, 1958</reference>
+<reference>T. W. Anderson,An Introduction to Multivariate Statistical Analysis, 1958, Wiley</reference>
+<reference>G. L. Turin, "Communication through noisy, random-multipath channels",1966 IRE Internat\'l Conv. Rec., pp. 154-166</reference>
+<reference>Y. S. Lezin, "Noise distribution at the output of an autocorrelator",Telecommunications and Radio Engineering, vol. 20, pp. 118-123, 1965</reference>
+<reference>L. L. Campbell, "A general analysis of post-detection correlation",IEEE Trans. on Information Theory, vol. IT-11, pp. 409-415, 1965</reference>
+<reference>M. LoÃ¿ve,Probability Theory, 1955, Van Nostrand</reference>
+</articles>
+

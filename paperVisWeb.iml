@@ -11,9 +11,18 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/.idea/artifacts" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/.idea" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
   </component>
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>

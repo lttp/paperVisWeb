@@ -1,0 +1,111 @@
+
+<articles>
+<url>http://doi.acm.org/10.1145/152613.152619</url>
+<abstract_html_url>http://dl.acm.org/citation.cfm?id=152613.152619</abstract_html_url>
+<pdf_url>http://dl.acm.org/ft_gateway.cfm?id=152619&type=pdf</pdf_url>
+<doi>10.1145/152613.152619</doi>
+<title>Enhancements of ANALYZE: a computer-assisted analysis system for linear programming</title>
+<publisher>ACM</publisher>
+<journal_title>ACM Transactions on Mathematical Software (TOMS)</journal_title>
+<volume>19</volume>
+<issue>2</issue>
+<first_page>233</first_page>
+<last_page>256</last_page>
+<issn>0098-3500</issn>
+<date_of_publication>06/01/1993</date_of_publication>
+<author>Harvey J. Greenberg  ++  Univ. of Colorado, Denver</author>
+<abstract>This describes enhancements to provide more advanced computer-assisted analysis of instances of linear programming models. Three categories of enhancements are described: views, engines for obtaining information, and rule-based advising. Examples of their uses include redundancy and infeasiblity diagnoses.</abstract>
+<keyword>computer-assisted analysis</keyword>
+<keyword>infeasibility</keyword>
+<keyword>large-scale systems</keyword>
+<keyword>linear programming</keyword>
+<keyword>modeling</keyword>
+<keyword>sensitivity analysis</keyword>
+<reference>BAKER, T. E. RESULT: An interactive modeling system for planning and scheduling. Presented at the ORSA/TIMS meeting (Chicago, IL, 1983).</reference>
+<reference>BROOKE, A., KENDRICK, D., AND MEERAUS, A. GAMS: A User's Guide. Scientific Press, Redwood City, Calif., 1988.</reference>
+<reference>Chesapeake Decision Sciences. MIMI/LP User Manual. New Providence, NJ, 1988.</reference>
+<reference>CHINNECK, J.W. Localizing and diagnosing infeasibilities in networks. Tech. Rep. SCE~90- 14, Dept. of Systems and Computer Engineering, Carleton Univ., Ottawa, Canada, 1990. To appear in ORSA J. on Comput.</reference>
+<reference>CmNNECK, J. W. Formulating processing network models: Viability theory. Naval Res. Logistics 37, (1990), 245-261.</reference>
+<reference>GREENBERG, H. J. A New Approach to Analyze Information Contained in a Model. In Energy Models Validation and Assessment, S. 1. Gass, Ed., NBS Pub. 569, National Bureau of Standards, Gaithersburg, Md., 1978, 517-524.</reference>
+<reference>Harvey Greenberg, A Functional Description of ANALYZE: A Computer-Assisted Analysis System for Linear Programming Models, ACM Transactions on Mathematical Software (TOMS), v.9 n.1, p.18-56, March 1983[doi>10.1145/356022.356024]</reference>
+<reference>GREENBER~, H.J. ANALYZE: A computer-assisted analysis system for linear programming models. Oper. Res. Lett. 6, 5 (1987), 249-255.</reference>
+<reference>Harvey J. Greenberg, A natural language discourse model to explain linear programming models and solutions, Decision Support Systems, v.3 n.4, p.333-342, Dec. 1987[doi>10.1016/0167-9236(87)90104-7]</reference>
+<reference>GREENBERG, H.J. Computer-assisted analysis for diagnosing infeasible or unbounded linear programs. Math. Program. Stud. 31, (1987), 79-97.</reference>
+<reference>Harvey J. Greenberg, ANALYZE rulebase, Mathematical models for decision support, Springer-Verlag New York, Inc., New York, NY, 1988</reference>
+<reference>S. D. Greenberg, Computer-Assisted Image Analysis Cytology, Karger, S Publishers, 1984</reference>
+<reference>GREENBERG, H J. Modeltng by Object-Driven Lznear Elemental Relations: A User's Guide for MODLER. Kluwer, Boston, Mass., 1993.</reference>
+<reference>GREENBERG, H.J. An empirical analysis of infeasibihty diagnosis for instances of linear programming blending models. 1MA J. Math. Bus. Ind~Js. 4 (1992), 163-210.</reference>
+<reference>GREENBERG, H. J., LUNDGREN~ J. R., AND MAYB~;E, J. $. Graph theoretic methods for the qualitative analysis of rectangular matrices. SIAM J. Algebraic D~screte Methods 2, (1981), 221-239.</reference>
+<reference>Harvey J. Greenberg , J. Richard Lundgren , John S. Maybee, Extensions of graph inversion  to support an artificially intelligent modeling environment, Annals of Operations Research, v.21 n.1-4, p.127-142, Nov. 1989[doi>10.1007/BF02022096]</reference>
+<reference>GREEN~ERG, H. J., AND MURPHY, F. H. Approaches to diagnosing infeasibility for linear programs, ORSA J. Comput. 3, 3 (1991), 253-261.</reference>
+<reference>GREENBERG, 1/. J., AND MURPHY, F. H. Views of mathematical programming models and their instances, Tech. Rep., Mathematics Dept., Univ. of Colorado at Denver, Denver, Colo., 1991.</reference>
+<reference>MathPro, Inc. MathPro Usage Guide: Introduction and Reference. Washington, D.C., 1989.</reference>
+<reference>Frederic H Murphy , Edward A Stohr, An intelligent system for formulating linear programs, Decision Support Systems, v.2 n.1, p.39-47, March 1986[doi>10.1016/S0167-9236(98)00087-6]</reference>
+<reference>SCHRAGE, L. User's Manual for LINDO. Scientific Press, Palo Alto, Calif., 1981.</reference>
+<reference>James S. Welch, Jr., PAM- a practitioner's approach to modeling, Management Science, v.33 n.5, p.610-625, May 1987[doi>10.1287/mnsc.33.5.610]</reference>
+</articles>
+
+
+<articles>
+<url>http://doi.acm.org/10.1145/152613.152621</url>
+<abstract_html_url>http://dl.acm.org/citation.cfm?id=152613.152621</abstract_html_url>
+<pdf_url>http://dl.acm.org/ft_gateway.cfm?id=152621&type=pdf</pdf_url>
+<doi>10.1145/152613.152621</doi>
+<title>Generating a sample from a k -cell table with changing probabilities in O(log 2 k time</title>
+<publisher>ACM</publisher>
+<journal_title>ACM Transactions on Mathematical Software (TOMS)</journal_title>
+<volume>19</volume>
+<issue>2</issue>
+<first_page>257</first_page>
+<last_page>261</last_page>
+<issn>0098-3500</issn>
+<date_of_publication>06/01/1993</date_of_publication>
+<author>George S. Fishman  ++  Univ. of North Carolina</author>
+<author>L. Stephen Yarberry  ++  Univ. of North Carolina</author>
+<keyword>Markov chain</keyword>
+<keyword>sampling without replacement</keyword>
+<reference>FISHMAN, G. S., AND MOORE, L.R. Sampling from a discrete distribution while preserving monotonicity. Am. Star. Assoc. 38 (1984), 219 223.</reference>
+<reference>Donald E. Knuth, The art of computer programming, volume 2 (3rd ed.): seminumerical algorithms, Addison-Wesley Longman Publishing Co., Inc., Boston, MA, 1997</reference>
+<reference>Ross, S., AND SCHECHNER, Z. Simulation uses of the exponential distribution. In Stochastic Programming, F. Archetti, G. Di Pillo and M. Lucertini, Eds. and in Lecture Note tn Contro{ and Information Sciences 76 (1986), 41 52.</reference>
+<reference>Alastair J. Walker, An Efficient Method for Generating Discrete Random Variables with General Distributions, ACM Transactions on Mathematical Software (TOMS), v.3 n.3, p.253-256, Sept. 1977[doi>10.1145/355744.355749]</reference>
+<reference>WONt, C. K., AND EASTON, M. C. An efficient method for weighted sampling without replacement. SIAM d. Comput. 9 (1980), 111 113.</reference>
+</articles>
+
+
+<articles>
+<url>http://doi.acm.org/10.1145/155743.155757</url>
+<abstract_html_url>http://dl.acm.org/citation.cfm?id=155743.155757</abstract_html_url>
+<pdf_url>http://dl.acm.org/ft_gateway.cfm?id=155757&type=pdf</pdf_url>
+<doi>10.1145/155743.155757</doi>
+<title>Template-driven interfaces for numerical subroutines</title>
+<publisher>ACM</publisher>
+<journal_title>ACM Transactions on Mathematical Software (TOMS)</journal_title>
+<volume>19</volume>
+<issue>3</issue>
+<first_page>265</first_page>
+<last_page>287</last_page>
+<issn>0098-3500</issn>
+<date_of_publication>09/01/1993</date_of_publication>
+<author>Jon L. Bentley  ++  AT&T Bell Labs.</author>
+<author>Mary F. Fernandez  ++  AT&T Bell Labs.</author>
+<author>Brian W. Kernighan  ++  AT&T Bell Labs.</author>
+<author>Norman L. Schryer  ++  AT&T Bell Labs.</author>
+<abstract>This paper describes a set of interfaces for numerical subroutines. Typing a short (often one-line) description allows one to solve problems in application domains including least-squares data fitting, differential equations, minimization, root finding, and integration. Our approach of “template-driven programming” makes it easy to build such an interface: a simple one takes a few hours to construct, while a few days suffice to build the most complex program we describe.</abstract>
+<keyword>Awk</keyword>
+<keyword>Fortran</keyword>
+<keyword>Maple</keyword>
+<keyword>Unix shell</keyword>
+<reference>Alfred V. Aho , Brian W. Kernighan , Peter J. Weinberger, The AWK programming language, Addison-Wesley Longman Publishing Co., Inc., Boston, MA, 1987</reference>
+<reference>Jon L. Bentley , Brian W. Kernighan, GRAP—a language for typesetting graphs, Communications of the ACM, v.29 n.8, p.782-792, Aug. 1986[doi>10.1145/6424.6429]</reference>
+<reference>BENVENUTI, A., PINTO, M. R., COUGHRAN, JR., W. M., SCHRYER, N. L., NALDI, C. U., AND GHIONE, G. Evaluation of the influence of convective energy in HBTs using a fully hydrodynamic model. IEDM Tech. Digest 91, 1991, 499-502.</reference>
+<reference>CHAMBERS, J. M., CLEVELAND, W. S., KLEINER, B., AND TUKEY, P.A. Graphical Methods for Data Analysis. Wadsworth, Boston, Mass., 1983.</reference>
+<reference>CHAR, B. W., GEDDES, K. O., GONNET, G. H., MONAGAN, M. B., WATT, S. M. MAPLE Reference Manual. Ftfth Edition. WATCOM Publications Limited, Waterloo, Ontario, 1988.</reference>
+<reference>W. M. Coughran , E. Grosse, A philosophy for scientific computing tools, ACM SIGNUM Newsletter, v.24 n.2-3, p.2-7, April/July 1989[doi>10.1145/74650.74651]</reference>
+<reference>John E. Dennis, Jr. , David M. Gay , Roy E. Walsh, An Adaptive Nonlinear Least-Squares Algorithm, ACM Transactions on Mathematical Software (TOMS), v.7 n.3, p.348-368, Sept. 1981[doi>10.1145/355958.355965]</reference>
+<reference>Fox, P.A. The PORT Mathematical Subroutine Lzbrary. AT&T Bell Laboratories, May 8, 1984.</reference>
+<reference>Philip E. Gill , Walter Murray , Susan M. Picken , Maragret H. Wright, The Design and Structure of a Fortran Program Library for Optimization, ACM Transactions on Mathematical Software (TOMS), v.5 n.3, p.259-283, Sept. 1979[doi>10.1145/355841.355844]</reference>
+<reference>Willi Hock , K. Schittkowski, Test Examples for Nonlinear Programming Codes, Springer-Verlag New York, Inc., Secaucus, NJ, 1981</reference>
+<reference>Brian W. Kernighan , Robert Pike , Rob Pike, The  UNIX Programming Environment, Prentice Hall Professional Technical Reference, 1984</reference>
+<reference>RICE, J. R. Composition of libraries, software parts and problem solving environments. Purdue Univ. Computer Sciences Dept. CSD-TR-852, Jan. 1989, 13 pp.</reference>
+</articles>
+

@@ -1,6 +1,6 @@
 function addAxesAndLegend (svg, xAxis, yAxis, margin, chartWidth, chartHeight) {
-  var legendWidth  = 200/xTimes,
-      legendHeight = 100/yTimes;
+  var legendWidth  = 180/xTimes,
+      legendHeight = 80/yTimes;
 
   // clipping to make sure nothing appears behind legend
   svg.append('clipPath')
@@ -31,47 +31,71 @@ function addAxesAndLegend (svg, xAxis, yAxis, margin, chartWidth, chartHeight) {
       .style('text-anchor', 'end')
       .text('Time (s)');
 
-  //var legend = svg.append('g')
-  //  .attr('class', 'legend')
-  //  .attr('transform', 'translate(' + (chartWidth - legendWidth) + ', 0)');
-  //
-  //legend.append('rect')
-  //  .attr('class', 'legend-bg')
-  //  .attr('width',  legendWidth)
-  //  .attr('height', legendHeight);
-  //
-  //legend.append('rect')
-  //  .attr('class', 'outer')
-  //  .attr('width',  75)
-  //  .attr('height', 20)
-  //  .attr('x', 10)
-  //  .attr('y', 10);
-  //
-  //legend.append('text')
-  //  .attr('x', 115)
-  //  .attr('y', 25)
-  //  .text('5% - 95%');
-  //
-  //legend.append('rect')
-  //  .attr('class', 'inner')
-  //  .attr('width',  75)
-  //  .attr('height', 20)
-  //  .attr('x', 10)
-  //  .attr('y', 40);
-  //
-  //legend.append('text')
-  //  .attr('x', 115)
-  //  .attr('y', 55)
-  //  .text('25% - 75%');
-  //
-  //legend.append('path')
-  //  .attr('class', 'median-line')
-  //  .attr('d', 'M10,80L85,80');
-  //
-  //legend.append('text')
-  //  .attr('x', 115)
-  //  .attr('y', 85)
-  //  .text('Median');
+  var legend = svg.append('g')
+    .attr('class', 'legend')
+    .attr('transform', 'translate(' + (chartWidth - legendWidth) + ', 0)');
+
+  legend.append('rect')
+    .attr('class', 'legend-bg')
+    .attr('width',  legendWidth)
+    .attr('height', legendHeight);
+
+  legend.append('rect')
+    .attr('class', 'parallel')
+    .attr('width',  75)
+    .attr('height', 10)
+      .style('fill','#8dd3c7')
+    .attr('x', 10)
+    .attr('y', 10);
+
+  legend.append('text')
+    .attr('x', 90)
+    .attr('y', 20)
+      .attr('font-size',4)
+    .text('parallel');
+
+  legend.append('rect')
+    .attr('class', 'interactive')
+    .attr('width',  75)
+    .attr('height', 10)
+      .style('fill','#80b1d3')
+    .attr('x', 10)
+    .attr('y', 25);
+
+  legend.append('text')
+    .attr('x', 90)
+    .attr('y', 35)
+      .attr('font-size',4)
+    .text('interactive');
+
+  legend.append('rect')
+      .attr('class', 'dimensionality')
+      .attr('width',  75)
+      .attr('height', 10)
+      .style('fill','#b3de69')
+      .attr('x', 10)
+      .attr('y', 40);
+
+  legend.append('text')
+      .attr('x', 90)
+      .attr('y', 50)
+      .attr('font-size',4)
+      .text('dimensionality');
+  legend.append('rect')
+      .attr('class', 'topological')
+      .attr('width',  75)
+      .attr('height', 10)
+      .style('fill','#bebada')
+      .attr('x', 10)
+      .attr('y', 55);
+
+  legend.append('text')
+      .attr('x', 90)
+      .attr('y', 65)
+      .attr('font-size',4)
+      .text('topological');
+
+
 }
 var smooth = 0.8;//to adjust the smooth of the Trend chart
 function drawPaths (svg, data, x, y) {

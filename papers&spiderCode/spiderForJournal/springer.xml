@@ -1,0 +1,267 @@
+
+<articles>
+<url>http://dx.doi.org/10.1007/s10703-015-0227-2</url>
+<abstract_html_url>http://link.springer.com/article/10.1007/s10703-015-0227-2</abstract_html_url>
+<fulltext_html_url>http://link.springer.com/article/10.1007/s10703-015-0227-2/fulltext.html</fulltext_html_url>
+<pdf_url>http://link.springer.com/content/pdf/10.1007%2Fs10703-015-0227-2.pdf</pdf_url>
+<doi>10.1007/s10703-015-0227-2</doi>
+<title>The ins and outs of first-order runtime verification</title>
+<publisher>Springer US</publisher>
+<journal_title>Formal Methods in System Design</journal_title>
+<journal_abbrev>Form Methods Syst Des</journal_abbrev>
+<volume>46</volume>
+<issue>3</issue>
+<first_page>286</first_page>
+<last_page>316</last_page>
+<print_issn>0925-9856</print_issn>
+<online_issn>1572-8102</online_issn>
+<online_date>2015/03/19</online_date>
+<cover_date>2015/06/01</cover_date>
+<author>Andreas Bauer</author>
+<author>Jan-Christoph Küster</author>
+<author>Gil Vegliach</author>
+<author_institution>NICTA</author_institution>
+<author_institution>TU München</author_institution>
+<author_institution>NICTA</author_institution>
+<author_institution>Australian National University</author_institution>
+<author_institution>NICTA</author_institution>
+<author_email>baueran@gmail.com</author_email>
+<abstract>The main purpose of this paper is to introduce a first-order temporal logic, \({{\mathrm{LTL}}}^{{{{{\mathrm{FO}}}}}} \), and a corresponding monitor construction based on a new type of automaton, called spawning automaton. Specifically, we show that monitoring a specification in \({{\mathrm{LTL}}}^{{{{{\mathrm{FO}}}}}} \) boils down to an undecidable decision problem. The proof of this result revolves around specific ideas on what we consider a “proper” monitor. As these ideas are general, we outline them first in the setting of standard LTL, before lifting them to the setting of first-order logic and \({{\mathrm{LTL}}}^{{{{{\mathrm{FO}}}}}} \). Although due to the above result one cannot hope to obtain a complete monitor for \({{\mathrm{LTL}}}^{{{{{\mathrm{FO}}}}}} \), we prove the soundness of our automata-based construction and give experimental results from an implementation. These seem to substantiate our hypothesis that the automata-based construction leads to efficient runtime monitors whose size does not grow with increasing trace lengths (as is often observed in similar approaches). However, we also discuss formulae for which growth is unavoidable, irrespective of the chosen monitoring approach. Specifically, we provide a general categorisation of so called monitorable languages, which is closely related to this notion of “growth-inducing” (that is, trace-length dependent) formulae. It relates to the well-known safety-progress hierarchy, yet is orthogonal to it.</abstract>
+<topic>Circuits and Systems</topic>
+<topic>Electrical Engineering</topic>
+<topic>Computer-Aided Engineering (CAD, CAE) and Design</topic>
+<topic>Software Engineering/Programming and Operating Systems</topic>
+<keyword>Monitoring</keyword>
+<keyword>Spawning automata</keyword>
+<keyword>Temporal logic</keyword>
+<keyword>First-order logic</keyword>
+<keyword>Monitorability</keyword>
+<keyword>Trace-length independence</keyword>
+<reference>Bauer A, Leucker M, Schallhart C (2011) Runtime verification for LTL and TLTL. ACM Trans Softw Eng Methodol 20(4):14</reference>
+<reference>Dong W, Leucker M, Schallhart C (2008) Impartial anticipation in runtime-verification. In: Proc. 6th Intl. Symp. on automated technology for verification and analysis (ATVA), vol 5311. LNCS, Springer, pp 386–396</reference>
+<reference>Halle S, Villemaire R (2008) Runtime monitoring of message-based workflows with data. In: Proc. 12th Enterprise Distr. Object Comp. Conf. (EDOC), pp 63–72, IEEE. doi:10.​1109/​EDOC.​2008.​32</reference>
+<reference>Havelund K, Rosu G (2004) Efficient monitoring of safety properties. Softw Tools Technol Transf 6(2):158–173</reference>
+<reference>Basin D, Klaedtke F, Müller S (2010) Policy monitoring in first-order temporal logic. In: Proc. 22nd Intl. Conf. on computer aided verification (CAV), vol 6174. LNCS, Springer, pp 1–18</reference>
+<reference>Bauer A, Gore R, Tiu A (2009) A first-order policy language for history-based transaction monitoring. In: Proc. 6th Intl. Colloq. on theoretical aspects of computing (ICTAC), vol 5684. LNCS, Springer, pp 96–111</reference>
+<reference>Chomicki J (1995) Efficient checking of temporal integrity constraints using bounded history encoding. ACM Trans Database Syst 20(2):149–186</reference>
+<reference>Chomicki J, Niwinski D (1995) On the feasibility of checking temporal integrity constraints. J Comput Syst Sci 51(3):523–535MATHMathSciNet</reference>
+<reference>Sistla AP, Wolfson O (1995) Temporal triggers in active databases. IEEE Trans Knowl Data Eng 7(3):471–486</reference>
+<reference>Bauer A, Küster JC, Vegliach G (2012) Runtime verification meets android security. In: Proc. 4th NASA formal methods symp. (NFM), vol 7226. LNCS, Springer, pp 174–180</reference>
+<reference>Manna Z, Pnueli A (1987) A hierarchy of temporal properties. In: Proc. 6th Annual ACM Symp. on principles of distributed computing (PODC), ACM, pp 205–205</reference>
+<reference>Bauer A, Küster JC, Vegliach G (2013) From propositional to first-order monitoring. In: Proc. 4th Intl. Conf. on runtime verification (RV), vol 8174. LNCS, Springer, pp 59–75</reference>
+<reference>Baier C, Katoen JP (2008) Principles of model checking. MIT Press, CambridgeMATH</reference>
+<reference>Clarke EM, Grumberg O, Peled DA (1999) Model checking. The MIT Press, Cambridge</reference>
+<reference>Markey N, Schnoebelen P (2003) Model checking a path. In: Proc. 14th Int. Conf. on concurrency theory (CONCUR), vol 2761. LNCS, Springer, pp 248–262 Springer</reference>
+<reference>Sistla AP, Clarke EM (1985) The complexity of propositional linear temporal logics. J ACM 32(3):733–749MATHMathSciNet</reference>
+<reference>Genon A, Massart T, Meuter C (2006) Monitoring distributed controllers: When an efficient LTL algorithm on sequences is needed to model-check traces. In: Proc. 14th Intl. Symp. on formal methods (FM), vol 4085. LNCS, Springer, pp 557–572</reference>
+<reference>Kuhtz L, Finkbeiner B (2012) Efficient parallel path checking for linear-time temporal logic with past and bounds. Log Methods Comput Sci 8(4)</reference>
+<reference>Eisner C, Fisman D, Havlicek J, Lustig Y, McIsaac A, Campenhout DV (2003) Reasoning with temporal logic on truncated paths. In: Proc. 15th Intl. Conf. on Computer Aided Verification (CAV), vol 2725. LNCS, Springer, pp 27–39</reference>
+<reference>Libkin L (2004) Elements of finite model theory. Springer, New YorkMATH</reference>
+<reference>Gerth R, Peled D, Vardi MY, Wolper P (1996) Simple on-the-fly automatic verification of linear temporal logic. In: Proc. 15th IFIP WG6.1 Intl. Symp. on protocol specification, testing and verification XV (IFIP). Chapman & Hall, pp 3–18</reference>
+<reference>Hopcroft JE, Ullman JD (1979) Introduction to automata theory, languages and computation, 1st edn. Addison-Wesley, ReadingMATH</reference>
+<reference>Bacchus F, Kabanza F (1998) Planning for temporally extended goals. Ann Math Artif Intell 22:5–27. doi:10.​1023/​A:​1018985923441. http://​portal.​acm.​org/​citation.​cfm?​id=​590220.​590230</reference>
+<reference>Dwyer M, Avrunin G, Corbett J (1999) Patterns in property specifications for finite-state verification. In: Proc. 21st Intl. Conf. on Softw. Eng. (ICSE), IEEE, pp 411–420</reference>
+<reference>Pnueli A, Zaks A (2006) PSL model checking and run-time verification via testers. In: Proc. 14th Intl. Symp. on formal methods (FM), vol 4085. LNCS, Springer, pp 573–586</reference>
+<reference>Bauer A (2010) Monitorability of \(\omega \)-regular languages. Comput Res Repos (CoRR/arXive) abs/1006.3638, ACM</reference>
+<reference>Allan C, Avgustinov P, Christensen AS, Hendren L, Kuzins S, Lhoták O, de Moor O, Sereni D, Sittampalam G, Tibble J (2005) Adding trace matching with free variables to aspect J. In: Proc. 20th ACM SIGPLAN Conf. on object-oriented programming, systems, languages, and applications (OOPSLA), ACM, pp 345–364</reference>
+<reference>Chen F, Roşu G (2009) Parametric trace slicing and monitoring. In: Proc. 15th Intl. Conf. on tools and algorithms for the construction and analysis of systems (TACAS), vol 5505. LNCS, Springer, pp 246–261</reference>
+<reference>Stolz V (2010) Temporal assertions with parametrized propositions. J. Log. Comp. 20(3):743–757MATHMathSciNet</reference>
+<reference>Jin D, Meredith PO, Lee C, Rosu G (2012) JavaMOP: efficient parametric runtime monitoring framework. In: Proc. 34th Intl. Conf. on Softw. Eng. (ICSE), IEEE, pp 1427–1430</reference>
+<reference>Medhat R, Joshi Y, Bonakdarpour B, Fischmeister S (2014) Parallelized runtime verification of first-order LTL specifications. Technical Report CS-2014-11, University of Waterloo</reference>
+<reference>Dean J, Ghemawat S (2010) Map reduce: a flexible data processing tool. Commun ACM 53(1):72–77</reference>
+<reference>Decker N, Leucker M, Thoma D (2014) Monitoring modulo theories. In: Proc. 20th Intl. Conf. on tools and algorithms for the construction and analysis of systems, vol 8413. Springer, LNCS, pp 341–356</reference>
+<reference>Nieuwenhuis R, Oliveras A, Tinelli C (2006) Solving SAT and SAT modulo theories: from an abstract davis–putnam–logemann–loveland procedure to dpll(T). J ACM 53(6):937–977. doi:10.​1145/​1217856.​1217859MathSciNet</reference>
+<reference>Garey MR, Johnson DS (1979) Computers and intractability: a guide to the theory of NP-completeness. W. H. Freeman & Co., New YorkMATH</reference>
+</articles>
+
+
+<articles>
+<url>http://dx.doi.org/10.1007/s10703-015-0226-3</url>
+<abstract_html_url>http://link.springer.com/article/10.1007/s10703-015-0226-3</abstract_html_url>
+<fulltext_html_url>http://link.springer.com/article/10.1007/s10703-015-0226-3/fulltext.html</fulltext_html_url>
+<pdf_url>http://link.springer.com/content/pdf/10.1007%2Fs10703-015-0226-3.pdf</pdf_url>
+<doi>10.1007/s10703-015-0226-3</doi>
+<title>Runtime verification with minimal intrusion through parallelism</title>
+<publisher>Springer US</publisher>
+<journal_title>Formal Methods in System Design</journal_title>
+<journal_abbrev>Form Methods Syst Des</journal_abbrev>
+<volume>46</volume>
+<issue>3</issue>
+<first_page>317</first_page>
+<last_page>348</last_page>
+<print_issn>0925-9856</print_issn>
+<online_issn>1572-8102</online_issn>
+<online_date>2015/05/29</online_date>
+<cover_date>2015/06/01</cover_date>
+<author>Shay Berkovich</author>
+<author>Borzoo Bonakdarpour</author>
+<author>Sebastian Fischmeister</author>
+<author_institution>Blue Coat Systems</author_institution>
+<author_institution>McMaster University</author_institution>
+<author_institution>University of Waterloo</author_institution>
+<author_email>shay.berkovich@bluecoat.com</author_email>
+<author_email>borzoo@mcmaster.ca</author_email>
+<author_email>sfischme@uwaterloo.ca</author_email>
+<abstract>Runtime verification is a monitoring technique to gain assurance about well-being of a program at run time. Most existing approaches use sequential monitors; i.e., when the state of the program with respect to an event of interest changes, the monitor interrupts the program execution, evaluates a set of logical properties, and finally resumes the program execution. In this paper, we propose a GPU-based method for design and implementation of monitors that enjoy two levels of parallelism: the monitor (1) works along with the program in parallel, and (2) evaluates a set of properties in a parallel fashion as well. Our parallel monitoring algorithms effectively exploit the many-core platform available in the GPU. In addition to parallel processing, our approach benefits from a true separation of monitoring and functional concerns, as it isolates the monitor in the GPU. Thus, our monitoring approach incurs minimal intrusion, as executing monitoring tasks take place in a different computing hardware from execution of the program under inspection. Our method is fully implemented for parametric and non-parametric 3-valued linear temporal logic. Our experimental results show significant reduction in monitoring overhead, monitoring interference, and power consumption due to leveraging the GPU technology. In particular, we observe that our parallel verification algorithms are indeed scalable.</abstract>
+<topic>Circuits and Systems</topic>
+<topic>Electrical Engineering</topic>
+<topic>Computer-Aided Engineering (CAD, CAE) and Design</topic>
+<topic>Software Engineering/Programming and Operating Systems</topic>
+<keyword>Runtime monitoring</keyword>
+<keyword>Parallel algorithms</keyword>
+<keyword>Temporal logic</keyword>
+<keyword>Formal methods</keyword>
+<reference>Barre B, Klein M, Soucy-Boivin M, Ollivier PA, Hallé S (2012) MapReduce for parallel trace validation of LTL properties. In: Proceedings of the 3rd international conference on runtime verification (RV), pp 184–198</reference>
+<reference>Basin DA, Caronni G, Ereth S, Harvan M, Klaedtke F, Mantel H (2014) Scalable offline monitoring. In: Proceedings of the 14th international conference on runtime verification (RV), pp 31–47</reference>
+<reference>Bauer A, Leucker M, Schallhart C (2011) Runtime verification for LTL and TLTL. ACM Trans Softw Eng Methodol (TOSEM) 20(4):14:1–14:64</reference>
+<reference>Bodden E (2005) J-lo-a tool for runtime-checking temporal assertions. Master’s thesis, RWTH Aachen university</reference>
+<reference>Bodden E (2010) Efficient hybrid typestate analysis by determining continuation-equivalent states. In: International conference on software engineering (ICSE), pp 5–14</reference>
+<reference>Bodden E, Lam P, Laurie L (2010) Clara: a framework for partially evaluating finite-state runtime monitors ahead of time. In: Rosu G, Sokolsky O (eds) Runtime verification (RV), pp 183–197</reference>
+<reference>Bonakdarpour B, Smolka S (eds) (2014) Proceedings of the 14th international conference on runtime verification (RV)</reference>
+<reference>Bonakdarpour B, Navabpour S, Fischmeister S (2011) Sampling-based runtime verification. In: Butler M, Schulte W (eds) Formal methods (FM), pp 88–102</reference>
+<reference>Bonakdarpour B, Navabpour S, Fischmeister S (2013) Time-triggered runtime verification. Form Methods Syst Des (FMSD) 43(1):29–60MATH</reference>
+<reference>Chen F, Roşu G (2005) Java-MOP: a monitoring oriented programming environment for java. In: Tools and Algorithms for the construction and analysis of systems (TACAS), pp 546–550</reference>
+<reference>Colin S, Mariani L (2005) Run-time verification. Springer, New York (LNCS 3472, chap 18)</reference>
+<reference>Dwyer MB, Avrunin GS, Corbett JC (1999) Patterns in property specifications for finite-state verification. In: International conference on software engineering (ICSE), pp 411–420</reference>
+<reference>Elmas T, Okur S, Tasiran S (2011) Rethinking runtime verification on hundreds of cores: challenges and opportunities. Tech. Rep. UCB/EECS-2011-74. EECS Department, University of California, Berkeley</reference>
+<reference>Geist J, Rozier KY, Schumann J (2014) Runtime observer pairs and bayesian network reasoners on-board fpgas: flight-certifiable system health management for embedded systems. In: Proceedings of the 14th international conference on runtime verification (RV), pp 215–230</reference>
+<reference>Giannakopoulou D, Havelund K (2001) Automata-based verification of temporal properties on running programs. In: Automated software engineering (ASE), pp 412–416</reference>
+<reference>Ha J, Arnold M, Blackburn SM, McKinley KS (2009) A concurrent dynamic analysis framework for multicore hardware. In: Object-oriented programming, systems, languages, and applications (OOPSLA), pp 155–174</reference>
+<reference>Holub J, Stekr S (2009) On parallel implementations of deterministic finite automata. In: Implementation and application of automata (CIAA), pp 54–64</reference>
+<reference>Huang X, Seyster J, Callanan S, Dixit K, Grosu R, Smolka SA, Stoller SD, Zadok E (2012) Software monitoring with controllable overhead. Softw Tools Technol Transf (STTT) 14(3):327–347</reference>
+<reference>Jin D (2012) Making runtime monitoring of parametric properties practical. PhD thesis, University of Illinois</reference>
+<reference>Kupferman O, Vardi MY (1999) Model checking of safety properties. In: Computer aided verification (CAV), pp 172–183</reference>
+<reference>Legay A, Bensalem S (eds) (2013) Proceedings of the fourth international conference on runtime verification (RV)</reference>
+<reference>Luo Q, Zhang Y, Lee C, Jin D, Meredith PN, erb nu T, Ro u G (2014) Rv-monitor: efficient parametric runtime verification with simultaneous properties. In: Bonakdarpour B, Smolka S (eds) Runtime verification, Lecture notes in computer science, vol 8734, Springer International Publishing, pp 285–300, doi:10.​1007/​978-3-319-11164-3_​24</reference>
+<reference>Meredith P, Jin D, Chen F, Roşu G (2010) Efficient monitoring of parametric context-free patterns. J Autom Softw Eng 17(2):149–180</reference>
+<reference>Navabpour S, Joshi Y, Wu CWW, Berkovich S, Medhat R, Bonakdarpour B, Fischmeister S (2013) RiTHM: a tool for enabling time-triggered runtime verification for c programs. In: ACM international conference on foundations of software engineering (FSE), pp 603–606</reference>
+<reference>Pellizzoni R, Meredith P, Caccamo M, Rosu G (2008) Hardware runtime monitoring for dependable COTS-based real-time embedded systems. In: Real-time systems symposium, pp 481–491</reference>
+<reference>Pnueli A, Zaks A (2006) PSL model checking and run-time verification via testers. In: Symposium on formal methods (FM), pp 573–586</reference>
+<reference>RTCA DO-178B (1992) Software considerations in airborne systems and equipment certification. Radio Technical Commission for Aeronautics (RTCA)</reference>
+<reference>Seyster J, Dixit K, Huang X, Grosu R, Havelund K, Smolka SA, Stoller SD, Zadok E (2010) Aspect-oriented instrumentation with GCC. In: Rosu G, Sokolsky O (eds) Runtime verification (RV), pp 405–420</reference>
+<reference>Zhu H, Dwyer MB, Goddard S (2009) Predictable runtime monitoring. In: Euromicro conference on real-time systems (ECRTS), pp 173–183</reference>
+<reference>Zilles CB, Sohi GS (2001) A programmable co-processor for profiling. In: High performance computer architecture (HPCA), pp 241–253</reference>
+</articles>
+
+
+<articles>
+<url>http://dx.doi.org/10.1007/s10703-013-0191-7</url>
+<abstract_html_url>http://link.springer.com/article/10.1007/s10703-013-0191-7</abstract_html_url>
+<fulltext_html_url>http://link.springer.com/article/10.1007/s10703-013-0191-7/fulltext.html</fulltext_html_url>
+<pdf_url>http://link.springer.com/content/pdf/10.1007%2Fs10703-013-0191-7.pdf</pdf_url>
+<doi>10.1007/s10703-013-0191-7</doi>
+<title>QoS-aware management of monotonic service orchestrations</title>
+<publisher>Springer US</publisher>
+<journal_title>Formal Methods in System Design</journal_title>
+<journal_abbrev>Form Methods Syst Des</journal_abbrev>
+<volume>44</volume>
+<issue>1</issue>
+<first_page>1</first_page>
+<last_page>43</last_page>
+<print_issn>0925-9856</print_issn>
+<online_issn>1572-8102</online_issn>
+<online_date>2013/07/24</online_date>
+<cover_date>2014/02/01</cover_date>
+<author>Albert Benveniste</author>
+<author>Claude Jard</author>
+<author>Ajay Kattepur</author>
+<author>Sidney Rosario</author>
+<author>John A. Thywissen</author>
+<author_institution>DistribCom team at INRIA Rennes</author_institution>
+<author_institution>Université de Nantes</author_institution>
+<author_institution>DistribCom team at INRIA Rennes</author_institution>
+<author_institution>The University of Texas at Austin</author_institution>
+<author_email>Albert.Benveniste@inria.fr</author_email>
+<author_email>Claude.Jard@univ-nantes.fr</author_email>
+<author_email>Ajay.Kattepur@inria.fr</author_email>
+<author_email>sidney.rosario@gmail.com</author_email>
+<author_email>jthywiss@cs.utexas.edu</author_email>
+<abstract>We study QoS-aware management of service orchestrations, specifically for orchestrations having a data-dependent workflow. Our study supports multi-dimensional QoS. To capture uncertainty in performance and QoS, we provide support for probabilistic QoS. Under the above assumptions, orchestrations may be non-monotonic with respect to QoS, meaning that strictly improving the QoS of a service may strictly decrease the end-to-end QoS of the orchestration, an embarrassing feature for QoS-aware management. We study monotonicity and provide sufficient conditions for it. We then propose a comprehensive theory and methodology for monotonic orchestrations. Generic QoS composition rules are developed via a QoS Calculus, also capturing best service binding—service discovery, however, is not within the scope of this work.</abstract>
+<topic>Circuits and Systems</topic>
+<topic>Electrical Engineering</topic>
+<topic>Computer-Aided Engineering (CAD, CAE) and Design</topic>
+<topic>Software Engineering/Programming and Operating Systems</topic>
+<keyword>Web services</keyword>
+<keyword>QoS</keyword>
+<keyword>Algebra</keyword>
+<keyword>Probabilistic models</keyword>
+<reference>van der Aalst WMP (1997) Verification of workflow nets. In: ICATPN, pp 407–426</reference>
+<reference>van der Aalst WMP (1998) The application of Petri nets to workflow management. J Circuits Syst Comput 8(1):21–66. citeseer.​ist.​psu.​edu/​vanderaalst98app​lication.​html</reference>
+<reference>van der Aalst WMP, van Hee KM (2002) Workflow management: models, methods, and systems. MIT Press, Cambridge</reference>
+<reference>van der Aalst WMP, ter Hofstede AHM, Kiepuszewski B, Barros AP (2003) Workflow patterns. Distrib Parallel Databases 14(1):5–51. doi:10.​1023/​A:​1022883727209</reference>
+<reference>Abundo M, Cardellini V, Presti FL (2011) Optimal admission control for a QoS-aware service-oriented system. In: ServiceWave, pp 179–190</reference>
+<reference>Bensoussan A (1992) Stochastic control of partially observable systems. Cambridge University Press, Cambridge    MATH</reference>
+<reference>Alrifai M, Risse T (2009) Combining global optimization with local selection for efficient QoS-aware service composition. In: WWW, pp 881–890</reference>
+<reference>Ardagna D, Ghezzi C, Mirandola R (2008) Model driven QoS analyses of composed web services. In: Mähönen P, Pohl K, Priol T (eds) ServiceWave. Lecture notes in computer science, vol 5377. Springer, Berlin, pp 299–311</reference>
+<reference>Ardagna D, Giunta G, Ingraffia N, Mirandola R, Pernici B (2006) QoS-driven web services selection in autonomic grid environments. In: Meersman R, Tari Z (eds) OTM conferences. Lecture notes in computer science, vol 4276. Springer, Berlin, pp 1273–1289</reference>
+<reference>Ardagna D, Pernici B (2005) Global and local QoS guarantee in web service selection. In: Bussler C, Haller A (eds) Business process management workshops, vol 3812, pp 32–46    </reference>
+<reference>Bistarelli S, Montanari U, Rossi F, Santini F (2010) Unicast and multicast QoS routing with soft-constraint logic programming. ACM Trans Comput Log 12(1):5:1–5:48    MathSciNet</reference>
+<reference>Bistarelli S, Santini F (2009) A nonmonotonic soft concurrent constraint language for SLA negotiation. Electron Notes Theor Comput Sci 236:147–162    </reference>
+<reference>Bistarelli S, Santini F (2009) Soft constraints for quality aspects in service oriented architectures. In: Young researchers workshop on service-oriented computing, pp 51–65</reference>
+<reference>Bouillard A, Rosario S, Benveniste A, Haar S (2009) Monotonicity in service orchestrations. In: Franceschinis G, Wolf K (eds) Petri nets. Lecture notes in computer science, vol 5606. Springer, Berlin, pp 263–282</reference>
+<reference>Buscemi MG, Montanari U (2007) CC-Pi: a constraint-based language for specifying service level agreements. In: Proceedings of the 16th European conference on programming, ESOP’07. Springer, Berlin, pp 18–32. http://​dl.​acm.​org/​citation.​cfm?​id=​1762174.​1762179</reference>
+<reference>Buscemi MG, Montanari U (2011) QoS negotiation in service composition. J Log Algebr Program 80(1):13–24    MATHMathSciNet</reference>
+<reference>Calinescu R, Grunske L, Kwiatkowska M, Mirandola R, Tamburrelli G (2011) Dynamic QoS management and optimization in service-based systems. IEEE Trans Softw Eng 37(3):387–409    </reference>
+<reference>Cardellini V, Casalicchio E, Grassi V, Presti FL (2010) Adaptive management of composite services under percentile-based service level agreements. In: ICSOC 2010. Lecture notes in computer science, vol 6470, pp 381–395</reference>
+<reference>Cardoso J, Sheth AP, Miller JA (2002) Workflow quality of service. In: Kosanke K, Jochem R, Nell JG, Bas AO (eds) ICEIMT, IFIP conference proceedings, vol 236. Kluwer, Dordrecht, pp 303–311</reference>
+<reference>Cardoso J, Sheth AP, Miller JA, Arnold J, Kochut K (2004) Quality of service for workflows and web service processes. J Web Semant 1(3):281–308    </reference>
+<reference>Cook WR, Patwardhan S, Misra J (2006) Workflow patterns in Orc. In: Coordination, pp 82–96</reference>
+<reference>Esparza J, Römer S, Vogler W (2002) An improvement of McMillan’s unfolding algorithm. Form Methods Syst Des 20(3):285–310    MATH</reference>
+<reference>Baccelli F, Cohen G, Olsder GJ, Quadrat J-P (1992) Synchronization and linearity. Wiley series in probability and mathematical statistics. Wiley, New York    MATH</reference>
+<reference>Hwang SY, Wang H, Srivastava J, Paul RA (2004) A probabilistic QoS model and computation framework for web services-based workflows. In: ER, pp 596–609</reference>
+<reference>Hwang SY, Wang H, Tang J, Srivastava J (2007) A probabilistic approach to modeling and estimating the QoS of web-services-based workflows. Inf Sci 177(23):5484–5503    MATH</reference>
+<reference>Kattepur A (2011) Importance sampling of probabilistic contracts in web services. In: Kappel G, Maamar Z, Motahari-Nezhad HR (eds) ICSOC. Lecture notes in computer science, vol 7084. Springer, Berlin, pp 557–565</reference>
+<reference>Keller A, Ludwig H (2003) The WSLA framework: specifying and monitoring service level agreements for web services. J Netw Syst Manag 11(1)</reference>
+<reference>Kiczales G, Lamping J, Mendhekar A, Maeda C, Lopes C, Loingtier MJ, Irwin J (1997) Aspect-oriented programming. In: ECOOP. Springer, Berlin</reference>
+<reference>Kiselev I (2002) Aspect-oriented programming with AspectJ. Sams, Indianapolis</reference>
+<reference>Kitchin D, Cook WR, Misra J (2006) A language for task orchestration and its semantic properties. In: Proceedings of the international conference on concurrency theory (CONCUR)</reference>
+<reference>Marsan MA, Balbo G, Bobbio A, Chiola G, Conte G, Cumani A (1989) The effect of execution policies on the semantics and analysis of stochastic Petri nets. IEEE Trans Softw Eng 15(7):832–846    </reference>
+<reference>Menascé DA, Casalicchio E, Dubey VK (2008) A heuristic approach to optimal service selection in service oriented architectures. In: Avritzer A, Weyuker EJ, Woodside CM (eds) WOSP. ACM, New York, pp 13–24    </reference>
+<reference>Misra J, Cook WR (2006) Computation orchestration: a basis for wide-area computing. Softw Syst Model. doi:10.​1007/​s10270-006-0012-1</reference>
+<reference>Shaked M, Shanthikumar JG (1994) Stochastic orders and their applications. Academic Press, New York    MATH</reference>
+<reference>Shaked M, Shanthikumar JG (2007) Stochastic orders. Springer, Berlin    MATH</reference>
+<reference>Murata T (1989) Petri nets: properties, analysis and applications. In: Proceedings of the IEEE, vol 77, pp 541–580</reference>
+<reference>Nicola R, Ferrari G, Montanari U, Pugliese R, Tuosto E (2005) A process calculus for QoS-aware applications. In: Jacquet JM, Picco GP (eds) Coordination models and languages. Lecture notes in computer science, vol 3454. Springer, Berlin, pp 33–48. doi:10.​1007/​11417019_​3</reference>
+<reference>OASIS (2007) Web services business process execution language version 2.0. http://​docs.​oasisopen.​org/​wsbpel/​2.​0/​wsbpel-v2.​0.​pdf</reference>
+<reference>Rosario S, Benveniste A, Haar S, Jard C (2007) Probabilistic QoS and soft contracts for transaction based web services. In: ICWS. IEEE Computer Society, Los Alamitos, pp 126–133</reference>
+<reference>Rosario S, Benveniste A, Haar S, Jard C (2008) Probabilistic QoS and soft contracts for transaction based web services orchestrations. IEEE Trans Service Comput 1(4)</reference>
+<reference>Rosario S, Benveniste, A, Jard, C (2009) A theory of QoS for web service orchestrations. Research report RR-6951, INRIA. Available from http://​hal.​inria.​fr/​inria-00391592/​PDF/​RR-6951.​pdf</reference>
+<reference>Rosario S, Benveniste A, Jard C (2009) Flexible probabilistic QoS management of transaction based web services orchestrations. In: ICWS. IEEE, New York, pp 107–114</reference>
+<reference>Rosario S, Kitchin D, Benveniste A, Cook WR, Haar S, Jard C (2007) Event structure semantics of orc. In: Dumas M, Heckel R (eds) WS-FM. Lecture notes in computer science, vol. 4937. Springer, Berlin, pp 154–168</reference>
+<reference>Sato N, Trivedi KS (2007) Stochastic modeling of composite web services for closed-form analysis of their performance and reliability bottlenecks. In: Krämer BJ, Lin KJ, Narasimhan P (eds) ICSOC. Lecture notes in computer science, vol 4749. Springer, Berlin, pp 107–118</reference>
+<reference>Segala R, Lynch NA (1994) Probabilistic simulations for probabilistic processes. In: Jonsson B, Parrow J (eds) CONCUR. Lecture notes in computer science, vol 836. Springer, Berlin, pp 481–496</reference>
+<reference>Kamae T, Krengel U, O’Brien GL (1977) Stochastic inequalities on partially ordered spaces. Ann Probab 5(6):899–912    MATHMathSciNet</reference>
+<reference>Saaty TL (1990) How to make a decision: the analytic hierarchy process. Eur J Oper Res 48(2):9–26    MATH</reference>
+<reference>Yu Q, Bouguettaya A (2008) Framework for web service query algebra and optimization. ACM Trans Web 2(1)</reference>
+<reference>Yu T, Lin KJ (2005) Service selection algorithms for composing complex services with multiple QoS constraints. In: Benatallah B, Casati F, Traverso P (eds) ICSOC. Lecture notes in computer science, vol 3826. Springer, Berlin, pp 130–143</reference>
+<reference>Zeng L, Benatallah B, Dumas M, Kalagnanam J, Sheng QZ (2003) Quality driven web services composition. In: WWW, pp 411–421</reference>
+<reference>Zeng L, Benatallah B, Ngu AHH, Dumas M, Kalagnanam J, Chang H (2004) QoS-aware middleware for web services composition. IEEE Trans Softw Eng 30(5):311–327    </reference>
+<reference>Zeng L, Ngu AHH, Benatallah B, Podorozhny RM, Lei H (2008) Dynamic composition and optimization of web services. Distrib Parallel Databases 24(1–3):45–72    </reference>
+<reference>Zheng H, Yang J, Zhao W, Bouguettaya A (2011) QoS analysis for web service compositions based on probabilistic QoS. In: Kappel G, Maamar Z, Motahari-Nezhad H (eds) Service-oriented computing, Lecture notes in computer science, vol 7084. Springer, Berlin, pp 47–61</reference>
+</articles>
+
+
+<articles>
+<url>http://dx.doi.org/10.1007/s10288-014-0263-6</url>
+<abstract_html_url>http://link.springer.com/article/10.1007/s10288-014-0263-6</abstract_html_url>
+<fulltext_html_url>http://link.springer.com/article/10.1007/s10288-014-0263-6/fulltext.html</fulltext_html_url>
+<pdf_url>http://link.springer.com/content/pdf/10.1007%2Fs10288-014-0263-6.pdf</pdf_url>
+<doi>10.1007/s10288-014-0263-6</doi>
+<title>Combinatorial optimization approaches for multi-part cyclic hoist scheduling problem</title>
+<publisher>Springer Berlin Heidelberg</publisher>
+<journal_title>4OR</journal_title>
+<journal_abbrev>4OR-Q J Oper Res</journal_abbrev>
+<volume>13</volume>
+<issue>1</issue>
+<first_page>111</first_page>
+<last_page>112</last_page>
+<print_issn>1619-4500</print_issn>
+<online_issn>1614-2411</online_issn>
+<online_date>2014/06/17</online_date>
+<cover_date>2015/03/01</cover_date>
+<author>Adnen El Amraoui</author>
+<topic>Operations Research/Decision Theory</topic>
+<topic>Optimization</topic>
+<topic>Industrial and Production Engineering</topic>
+</articles>
+
