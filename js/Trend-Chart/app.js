@@ -211,7 +211,7 @@ function setLocation(marker,el){
   //wordWidth = wordWidth.maxWidth;
   var wordWidth = el.getComputedTextLength();
  // var wordHeight = el.getAttribute('font-size');
-  var wordHeight = el.clientHeight;
+  var wordHeight = el.scrollHeight;
   //var aspect = wordHeight+1/wordWidth;
   //el.setAttribute('font-size-adjust',aspect);
   el.setAttribute('x',wordWidth/2);

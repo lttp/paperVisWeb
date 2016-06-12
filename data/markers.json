@@ -4,5 +4,2924 @@
     "type":"" ,
     "version": "",
     "value":0
+  },
+  {
+    "date": "2000-01-01",
+    "group":0,
+    "type": "isosurface",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2000-01-01",
+    "group":0,
+    "type": "algorithm",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":0,
+    "type": "extraction",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2000-01-01",
+    "group":0,
+    "type": "dimension",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":0,
+    "type": "feature",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "group":1,
+    "type": "volume",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "type": "function",
+    "group":1,
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "group":1,
+    "type": "animation",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "group":1,
+    "type": "hull",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "group":1,
+    "type": "isosurfaces",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+
+  {
+    "date": "2007-01-01",
+    "group":2,
+    "type": "topological",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "reeb",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "graph",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "terrain",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "function",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "mesh",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "type": "landscape",
+    "group":2,
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "metaphor",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "scientific",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "on",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+
+
+  {
+    "date": "2010-01-01",
+    "group":3,
+    "type": "topological",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "analysis",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "function",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "landscape",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "type": "sample",
+    "group":3,
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "topology",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "point",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "cloud",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+
+
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "topological",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "analysis",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "contour",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "function",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "net",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "joint",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "statistic",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "progressive",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "isosurface",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+
+
+
+  {
+    "date":  "2000-01-01",
+    "group":5,
+    "type": "dimensionality",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":5,
+    "type": "reduction",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":6,
+    "type": "hybrid",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "transformation",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "radviz",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "point",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "layout",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "linear",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "skeleton",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+  "date":  "2007-01-01",
+  "group":7,
+  "type": "diagnosis",
+  "version": "2.0",
+  "yPos":3000,
+  "value":20,
+  "color":"#d9d9d9"
+},
+  {
+  "date":  "2007-01-01",
+  "group":7,
+  "type": "trend",
+  "version": "2.0",
+  "yPos":3000,
+  "value":20,
+  "color":"#d9d9d9"
+},
+  {
+  "date":  "2007-01-01",
+  "group":7,
+  "type": "reduction",
+  "version": "2.0",
+  "yPos":3000,
+  "value":20,
+  "color":"#d9d9d9"
+},
+  {
+  "date":  "2007-01-01",
+  "group":7,
+  "type": "dimensionality",
+  "version": "2.0",
+  "yPos":3000,
+  "value":20,
+  "color":"#d9d9d9"
+},
+  {
+  "date":  "2007-01-01",
+  "group":7,
+  "type": "subspace",
+  "version": "2.0",
+  "yPos":3000,
+  "value":20,
+  "color":"#d9d9d9"
+},
+  {
+  "date":  "2007-01-01",
+  "group":7,
+  "type": "principal",
+  "version": "2.0",
+  "yPos":3000,
+  "value":20,
+  "color":"#d9d9d9"
+},
+  {
+  "date":  "2007-01-01",
+  "group":7,
+  "type": "regression",
+  "version": "2.0",
+  "yPos":3000,
+  "value":20,
+  "color":"#d9d9d9"
+},
+  {
+  "date":  "2007-01-01",
+  "group":7,
+  "type": "analysis",
+  "version": "2.0",
+  "yPos":3000,
+  "value":20,
+  "color":"#d9d9d9"
+},
+  {
+  "date":  "2007-01-01",
+  "group":7,
+  "type": "curve",
+  "version": "2.0",
+  "yPos":3000,
+  "value":20,
+  "color":"#d9d9d9"
+},
+
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "reduction",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "dimensionality",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "projection",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "precision",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "system",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "distance",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "transformation",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "quality",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "reduction",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "dimensionality",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "measure",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "distance",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "multidimensional",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "point",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "quality",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "technique",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "metric",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+
+  {
+    "date":  "2000-01-01",
+    "group":10,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":11000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":10,
+    "type": "exploration",
+    "version": "2.0",
+    "yPos":11000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":10,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":11000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":10000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "parallel",
+    "version": "2.0",
+    "yPos":10000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "cluster",
+    "version": "2.0",
+    "yPos":10000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "visualization",
+    "version": "2.0",
+    "yPos":10000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "point",
+    "version": "2.0",
+    "yPos":6000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "dimension",
+    "version": "2.0",
+    "yPos":6000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "technical",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "exploration",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "dimension",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "cluster",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "parallel",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "user",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "visualization",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "multivariate",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "exploration",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "cluster",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "user",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "analysis",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "parameter",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "point",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "technical",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "exploration",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "projection",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "dimension",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "point",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "subspace",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "user",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "cluster",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":15,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":24000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":15,
+    "type": "technique",
+    "version": "2.0",
+    "yPos":24000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":15,
+    "type": "mine",
+    "version": "2.0",
+    "yPos":24000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":15,
+    "type": "pixel",
+    "version": "2.0",
+    "yPos":24000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "projection",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "map",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "visualization",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "applicable",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "abstraction",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "clutter",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "parallel",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "reduction",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "view",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "point",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "rank",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "scatterplots",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "view",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "point",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "parallel",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "quality",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "subspace",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "series",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "sensitivity",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "view",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "time",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "star",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  }
+  ,
+
+
+  {
+    "date": "2000-01-01",
+    "group":0,
+    "type": "isosurfa",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2000-01-01",
+    "group":0,
+    "type": "algorit",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":0,
+    "type": "extracti",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2000-01-01",
+    "group":0,
+    "type": "dimensi",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":0,
+    "type": "featu",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "group":1,
+    "type": "vole",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "type": "fction",
+    "group":1,
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "group":1,
+    "type": "nimation",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "group":1,
+    "type": "hll",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2004-01-01",
+    "group":1,
+    "type": "isurfaces",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#fccde5"
+  },
+
+  {
+    "date": "2007-01-01",
+    "group":2,
+    "type": "topogical",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "reeb",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "grph",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "trrain",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "fuction",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "msh",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "type": "lascape",
+    "group":2,
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "mephor",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "scntific",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":2,
+    "type": "on",
+    "version": "2.0",
+    "yPos":2000,
+    "value":20,
+    "color":"#fccde5"
+  },
+
+
+  {
+    "date": "2010-01-01",
+    "group":3,
+    "type": "tological",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "analysis",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "function",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "landscape",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "type": "sample",
+    "group":3,
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "topology",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "point",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":3,
+    "type": "cloud",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#fccde5"
+  },
+
+
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "topological",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "analysis",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "contour",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "function",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "net",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "joint",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "statistic",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "progressive",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":4,
+    "type": "isosurface",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#fccde5"
+  },
+
+
+
+  {
+    "date":  "2000-01-01",
+    "group":5,
+    "type": "dimensionality",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":5,
+    "type": "reduction",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":6,
+    "type": "hybrid",
+    "version": "2.0",
+    "yPos":1000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "transformation",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "radviz",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "point",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "layout",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "linear",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":6,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "skeleton",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "diagnosis",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "trend",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "reduction",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "dimensionality",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "subspace",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "principal",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "regression",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "analysis",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":7,
+    "type": "curve",
+    "version": "2.0",
+    "yPos":3000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "reduction",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "dimensionality",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "projection",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "precision",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "system",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "distance",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "transformation",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "quality",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":8,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":8000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "reduction",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "dimensionality",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "measure",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "distance",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "multidimensional",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "point",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "quality",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "technique",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":9,
+    "type": "metric",
+    "version": "2.0",
+    "yPos":5000,
+    "value":20,
+    "color":"#d9d9d9"
+  },
+
+  {
+    "date":  "2000-01-01",
+    "group":10,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":11000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":10,
+    "type": "exploration",
+    "version": "2.0",
+    "yPos":11000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":10,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":11000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":10000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "parallel",
+    "version": "2.0",
+    "yPos":10000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "cluster",
+    "version": "2.0",
+    "yPos":10000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "visualization",
+    "version": "2.0",
+    "yPos":10000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "point",
+    "version": "2.0",
+    "yPos":6000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "dimension",
+    "version": "2.0",
+    "yPos":6000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":11,
+    "type": "technical",
+    "version": "2.0",
+    "yPos":4000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "exploration",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "dimension",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "cluster",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "parallel",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "user",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "visualization",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":12,
+    "type": "multivariate",
+    "version": "2.0",
+    "yPos":12000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "exploration",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "cluster",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "user",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "analysis",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "parameter",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "point",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":13,
+    "type": "technical",
+    "version": "2.0",
+    "yPos":22000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "interactive",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "exploration",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "projection",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "dimension",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "point",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "subspace",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "user",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":14,
+    "type": "cluster",
+    "version": "2.0",
+    "yPos":18000,
+    "value":20,
+    "color":"#bc80bd"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":15,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":24000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":15,
+    "type": "technique",
+    "version": "2.0",
+    "yPos":24000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":15,
+    "type": "mine",
+    "version": "2.0",
+    "yPos":24000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2000-01-01",
+    "group":15,
+    "type": "pixel",
+    "version": "2.0",
+    "yPos":24000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "projection",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "map",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "visualization",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2003-01-01",
+    "group":16,
+    "type": "applicable",
+    "version": "2.0",
+    "yPos":10500,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "abstraction",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "clutter",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "parallel",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "visual",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "reduction",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "view",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2007-01-01",
+    "group":17,
+    "type": "point",
+    "version": "2.0",
+    "yPos":15000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "rank",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "scatterplots",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "view",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "point",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "parallel",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "quality",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2010-01-01",
+    "group":18,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":30000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "scatterplot",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "subspace",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "coordinate",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "series",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "sensitivity",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "view",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "centric",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "time",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "computation",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
+  },
+  {
+    "date":  "2013-01-01",
+    "group":19,
+    "type": "star",
+    "version": "2.0",
+    "yPos":23000,
+    "value":20,
+    "color":"#ad2358"
   }
 ]

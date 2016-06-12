@@ -38,3 +38,6 @@ parallel coordinate
 ['abstraction', 'clutter', 'parallel', 'centric', 'computation', 'coordinate', 'visual', 'reduction', 'view', 'point']
 2008~2011 [0, 1, 8, 15, 28, 41, 56, 73, 112, 116, 117, 122, 152, 158, 175, 177, 178, 187, 212, 57, 76] 21
 ['computation', 'centric', 'rank', 'scatterplots', 'view', 'point', 'parallel', 'quality', 'coordinate', 'scatterplot']
+
+
+
